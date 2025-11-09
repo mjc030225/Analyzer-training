@@ -1,0 +1,219 @@
+id,feedback_text,sentiment,topic,urgency,action
+1,We need to streamline the AI demos for all AI training courses,negative,equipment/setup,high,modify course content
+2,Room size is small,negative,venue,high,contact venue
+3,Noise outside the room in the hall,negative,venue,high,contact venue
+4,The lunch was so cold and food is dry,negative,catering,high,contact venue
+5,No variety of food options,negative,catering,medium,contact venue
+6,Coffee machine is not working,negative,venue,high,contact venue
+7,The content is so outdated,negative,content,high,modify course content
+8,Excellent,positive,overall,low,none
+9,The instructor is really professional,positive,instructor,low,none
+10,"Wasted money, I didn’t pay for this",negative,overall,high,escalate
+11,I would totally recommend this company to my colleagues,positive,overall,low,none
+12,No comment,neutral,overall,low,none
+13,Cool,neutral,overall,low,none
+14,AC is so cold,negative,venue,high,contact venue
+15,Room temp is hot,negative,venue,high,contact venue
+16,Ok,neutral,overall,low,none
+17,Good,positive,overall,low,none
+18,i still haven't received the printed materials,negative,material,high,inform coordinators
+19,the materials i received is for the wrong course,negative,material,high,inform coordinators
+20,i was given another venue's location! i missed day 1!,negative,venue,high,escalate
+21,we need more breaks,negative,overall,medium,inform coordinators
+22,too much theory,negative,content,high,inform instructor
+23,so boring i almost fell asleep,negative,content,high,inform instructor
+24,rasict instructor with really bad attitude,negative,content,high,escalate
+25,It went as expected,neutral,overall,low,none
+26,Menu was simple but fine,neutral,catering,low,none
+27,Good session; no issues to report,positive,overall,low,none
+28,Chairs were uncomfortable for long sessions,negative,venue,high,contact venue
+29,Lunch arrived late and was cold,negative,catering,high,contact venue
+30,Restrooms were not clean during the break,negative,venue,low,contact venue
+31,Overall experience was great; well organized event,positive,overall,low,none
+32,Microphone kept cutting out when moving around,negative,equipment/setup,high,inform coordinators
+33,HDMI cables were loose and caused screen flickers,negative,equipment/setup,low,inform instructor
+34,Food options were great and everyone enjoyed the variety,positive,catering,low,none
+35,The lunch portion was too small for everyone,negative,catering,high,contact venue
+36,Everything went smoothly and according to plan,positive,overall,low,none
+37,Lighting in the hall was poor and tiring on the eyes,negative,venue,high,contact venue
+38,Excellent teamwork by the organizing staff,positive,overall,low,none
+39,Case studies were practical and well chosen - related to my field,positive,content,low,none
+40,no issues,neutral,overall,low,none
+41,"Technical setup was flawless, great job!",positive,equipment/setup,low,none
+42,Examples were not relevant to our industry,negative,content,high,inform instructor
+43,Coverage aligned with the course outline,positive,content,low,none
+44,Projector kept turning off during the session,negative,equipment/setup,medium,inform coordinators
+45,Setup was standard; nothing unusual,neutral,equipment/setup,low,none
+46,Water bottles ran out quickly,negative,catering,medium,contact venue
+47,Great experince,positive,overall,low,none
+48,Topics were interesting but a bit repetitive,negative,content,low,modify course content
+49,Instructor skipped some important topics,negative,instructor,high,inform coordinators
+50,No comments,neutral,overall,low,none
+51,Thank you,positive,overall,low,none
+52,The session was boring; hard to stay engaged,negative,content,high,inform instructor
+53,"In my delivery, Important topics were skipped",negative,content,high,escalate
+54,HDMI cable was loose and caused screen flickers,negative,equipment/setup,medium,inform coordinators
+55,Venue was fine; nothing special,neutral,venue,low,none
+56,Great experience overall,positive,overall,low,none
+57,Content matched the agenda,neutral,content,low,none
+58,"Slides will be shared later, as expected",neutral,material,low,none
+59,Examples were not relevant to our context,negative,content,medium,inform instructor
+60,Very little variety of food options,negative,catering,medium,contact venue
+61,"Personally, Not worth the price paid",negative,overall,high,escalate
+62,Content felt outdated for our industry,negative,content,high,modify course content
+63,Case studies were practical and well chosen,positive,content,low,none
+64,Lighting was poor and tiring on the eyes,negative,venue,high,contact venue
+65,"From my side, I would totally recommend this company to colleagues",positive,overall,low,none
+66,Venue was convenient and comfortable,positive,venue,low,none
+67,Overall experience was great; well‑organized event,positive,overall,low,none
+68,Case studies were practical and well chosen,positive,content,low,none
+69,Too much hallway noise disrupted the session,negative,venue,high,contact venue
+70,Received materials for the wrong course,negative,material,high,inform coordinators
+71,AC was freezing; several people complained,negative,venue,high,contact venue
+72,I think No comment,neutral,overall,low,none
+73,Important topics were skipped,negative,content,high,escalate
+74,Room size was too small for the group,negative,venue,high,contact venue
+75,"Technical setup was flawless, great job!",positive,equipment/setup,low,none
+76,"In my delivery, Examples were not relevant to our context",negative,content,high,inform instructor
+77,Content was acceptable,neutral,content,low,none
+78,Printed materials did not arrive in time,negative,material,medium,inform coordinators
+79,Lunch was cold and the food was dry,negative,catering,high,contact venue
+80,"Too much theory, not enough practical exercises",negative,content,high,inform instructor
+81,"In my delivery, Explanations were unclear in several parts",negative,instructor,medium,inform coordinators
+82,I think Everything went smoothly and according to plan,positive,overall,low,none
+83,"In my delivery, I would totally recommend this company to colleagues",positive,overall,low,none
+84,Conference room was too hot and stuffy,negative,venue,medium,contact venue
+85,No issues to report,neutral,overall,low,none
+86,Not worth the price paid,negative,overall,high,escalate
+87,Equipment was adequate,neutral,equipment/setup,low,none
+88,"From my side, Disappointed with the overall experience",negative,overall,high,escalate
+89,I think Wi‑Fi was unstable throughout the day,negative,equipment/setup,high,inform coordinators
+90,Disappointed with the overall experience,negative,overall,high,escalate
+91,Ok; no major issues,neutral,overall,low,none
+92,Pace was too slow for the group,negative,content,medium,inform instructor
+93,I would totally recommend this company to colleagues,positive,overall,low,none
+94,Standard room; acceptable,neutral,venue,low,none
+95,"From my side, Examples were not relevant to our context",negative,content,high,inform instructor
+96,Very little variety of food options,negative,catering,medium,contact venue
+97,Wi‑Fi was unstable throughout the day,negative,equipment/setup,medium,inform coordinators
+98,"From my side, Water bottles ran out quickly",negative,catering,high,contact venue
+99,Tone came across as dismissive of questions,negative,instructor,high,inform coordinators
+100,Everything worked as expected; smooth setup,positive,equipment/setup,low,none
+101,Portion sizes were too small,negative,catering,high,contact venue
+102,Wi‑Fi was unstable throughout the day,negative,equipment/setup,high,inform coordinators
+103,I think Venue was fine; nothing special,neutral,venue,low,none
+104,Explanations were unclear in several parts,negative,instructor,high,inform coordinators
+105,Explanations were unclear in several parts,negative,instructor,medium,inform coordinators
+106,Instructor was professional and very knowledgeable,positive,instructor,low,none
+107,Topics were interesting and engaging,positive,content,low,none
+108,Materials were standard,neutral,material,low,none
+109,Room layout worked well for activities,positive,venue,low,none
+110,"In my delivery, Wi‑Fi was unstable throughout the day",negative,equipment/setup,high,inform coordinators
+111,Speakers had a constant hum,negative,equipment/setup,low,inform instructor
+112,Topics were interesting and engaging,positive,content,low,none
+113,"As the trainer, Too much hallway noise disrupted the session",negative,venue,medium,contact venue
+114,"From my side, Wi‑Fi was unstable throughout the day",negative,equipment/setup,high,inform coordinators
+115,Speakers had a constant hum,negative,equipment/setup,high,inform coordinators
+116,Instructor was late and rushed through sections,negative,instructor,medium,escalate
+117,I would totally recommend this company to colleagues,positive,overall,low,none
+118,"In my delivery, Pace was too slow for the group",negative,content,medium,inform instructor
+119,Laptop adapter was missing at the start,negative,equipment/setup,medium,inform coordinators
+120,I think Tone came across as dismissive of questions,negative,instructor,high,escalate
+121,"From my side, Topics were interesting and engaging",positive,content,low,none
+122,Lunch arrived late and was cold,negative,catering,high,contact venue
+123,I think Microphone kept cutting out when moving around,negative,equipment/setup,high,inform coordinators
+124,I think Coverage aligned with the course outline,positive,content,low,none
+125,"From my side, Overall experience was great; well‑organized event",positive,overall,low,none
+126,Coffee machine was not working,negative,catering,high,contact venue
+127,"In my delivery, Coverage aligned with the course outline",positive,content,low,none
+128,"From my side, The session was boring; hard to stay engaged",negative,content,high,inform instructor
+129,"In my delivery, Room size was too small for the group",negative,venue,medium,contact venue
+130,Handled questions patiently and thoroughly,positive,instructor,low,none
+131,I think Equipment was adequate,neutral,equipment/setup,low,none
+132,"In my delivery, Water bottles ran out quickly",negative,catering,high,contact venue
+133,"I think Too much theory, not enough practical exercises",negative,content,medium,inform instructor
+134,I think Topics were interesting and engaging,positive,content,low,none
+135,Materials were clear and well organized,positive,material,low,none
+136,Delivery was fine,neutral,instructor,low,none
+137,I think Content matched the agenda,neutral,content,low,none
+138,I think Needed to manage time better; skipped Q&A,negative,instructor,high,inform coordinators
+139,Great delivery and facilitation,positive,instructor,low,none
+140,No comments,neutral,overall,low,none
+141,"From my side, Content felt outdated for our industry",negative,content,high,modify course content
+142,Materials were clear and well organized,positive,material,low,none
+143,"From my side, Equipment was adequate",neutral,equipment/setup,low,none
+144,"In my delivery, Everything went smoothly and according to plan",positive,overall,low,none
+145,"From my side, Everything went smoothly and according to plan",positive,overall,low,none
+146,"From my side, Coverage aligned with the course outline",positive,content,low,none
+147,I think Laptop adapter was missing at the start,negative,equipment/setup,high,inform coordinators
+148,I think Catering was okay,neutral,catering,low,none
+149,I think Handouts were missing several pages,negative,material,high,inform coordinators
+150,No specific comment,neutral,overall,low,none
+151,Needed to manage time better; skipped Q&A,negative,instructor,high,inform coordinators
+152,"From my side, Too much hallway noise disrupted the session",negative,venue,high,contact venue
+153,I think Examples were not relevant to our context,negative,content,medium,inform instructor
+154,"From my side, Laptop adapter was missing at the start",negative,equipment/setup,medium,inform coordinators
+155,Everything went smoothly and according to plan,positive,overall,low,none
+156,Catering was okay,neutral,catering,low,none
+157,I think Very little variety of food options,negative,catering,medium,contact venue
+158,Handouts were missing several pages,negative,material,medium,inform coordinators
+159,Great delivery and facilitation,positive,instructor,low,none
+160,"In my delivery, Materials were standard",neutral,material,low,none
+161,The session was boring; hard to stay engaged,negative,content,high,inform instructor
+162,I think Venue was convenient and comfortable,positive,venue,low,none
+163,I think Not worth the price paid,negative,overall,high,escalate
+164,"In my delivery, The session was boring; hard to stay engaged",negative,content,high,inform instructor
+165,"From my side, Tone came across as dismissive of questions",negative,instructor,medium,inform coordinators
+166,I think Setup was standard; nothing unusual,neutral,equipment/setup,low,none
+167,I think Important topics were skipped,negative,content,high,escalate
+168,The room smeeled so bad we had to change it and waited a lot ,negative,venue,high,escalate
+169,Slides contained several factual errors,negative,material,high,inform coordinators
+170,Would definitely NOT recommend this training,negative,overall,high,escalate
+171,"Demo machine was running extremely slow, wasting a lot of time",negative,equipment/setup,high,inform coordinators
+172,The catered food caused an allergic reaction for one delegate,negative,catering,high,contact venue
+173,The instructor seemed unprepared for the advanced questions,negative,instructor,medium,inform coordinators
+174,Handouts were informative and high quality,positive,material,low,none
+175,All equipment worked perfectly,positive,equipment/setup,low,none
+176,Excellent experience from start to finish,positive,overall,low,none
+177,Content was relevant and up-to-date,positive,content,low,none
+178,Good location with ample parking,positive,venue,low,none
+179,A truly great learning opportunity,positive,overall,low,none
+180,Fundamental concepts were not explained well enough,negative,content,high,modify course content
+181,Too much theory and not enough hands-on practice,negative,content,high,modify course content
+182,Digital materials were shared promptly,positive,material,low,none
+183,The room was overcrowded and very hot,negative,venue,medium,contact venue
+184,Material was acceptable,neutral,material,low,none
+185,Catering was acceptable,neutral,catering,low,none
+186,Instructor made complex topics easy to understand,positive,instructor,low,none
+187,"Poor quality, inedible food options",negative,catering,high,contact venue
+188,"Too many personal anecdotes, not enough focus on the topic",negative,instructor,medium,inform instructor
+189,Lunch arrived 45 minutes late,negative,catering,high,contact venue
+190,Fast Wi-Fi and good projector quality,positive,equipment/setup,low,none
+191,Restrooms were dirty and poorly maintained,negative,venue,high,contact venue
+192,The course workbook is a great reference,positive,material,low,none
+193,The last two modules were rushed and unclear,negative,content,high,escalate
+194,Constant disruptive noise from construction outside,negative,venue,high,contact venue
+195,The primary monitor kept turning off,negative,equipment/setup,high,contact venue
+196,Not much new information,neutral,content,low,none
+197,I feel like the training was a bait-and-switch,negative,overall,high,inform coordinators
+198,Very professional and helpful instructor,positive,instructor,low,none
+199,Venue was acceptable,neutral,venue,low,none
+200,"It was okay, met basic expectations",neutral,overall,low,none
+201,The printed materials were for an entirely different course,negative,material,medium,inform coordinators
+202,The setup was seamless and efficient,positive,equipment/setup,low,none
+203,It was what I expected,positive,overall,low,none
+204,Material was well-structured and comprehensive,positive,content,low,none
+205,Comfortable seating and great atmosphere,positive,venue,low,none
+206,A very disappointing and unorganized event,negative,overall,high,escalate
+207,The venue part was neither good nor bad,neutral,venue,low,none
+208,I regret spending my company's money on this,negative,overall,high,escalate
+209,"Five stars, everything was perfect",positive,overall,low,none
+210,Coffee breaks were very refreshing,positive,catering,low,none
+211,Fantastic delivery by the trainer,positive,instructor,low,none
+212,Unpleasant smell in the training room,negative,venue,high,contact venue
+213,Only sugary snacks were provided; no healthy alternatives,negative,catering,medium,contact venue
+214,The material part was neither good nor bad,neutral,material,low,none
+215,The instructor showed clear bias against certain questions,negative,instructor,high,inform coordinators
+216,Great variety of snacks and drinks,positive,catering,low,none
+217,Please contact venue since this affects the equipment/setup quality,neutral,equipment/setup,high,contact venue
+218,We faced limited seating during the setup but it got solved,negative,equipment/setup,low,inform coordinators
