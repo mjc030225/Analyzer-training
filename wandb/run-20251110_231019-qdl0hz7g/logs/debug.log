@@ -1,0 +1,22 @@
+2025-11-10 23:10:19,367 INFO    MainThread:1983317 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /home/700050058/project_feedback_analyzer/wandb/run-20251110_231019-qdl0hz7g/logs/debug.log
+2025-11-10 23:10:19,368 INFO    MainThread:1983317 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /home/700050058/project_feedback_analyzer/wandb/run-20251110_231019-qdl0hz7g/logs/debug-internal.log
+2025-11-10 23:10:19,368 INFO    MainThread:1983317 [wandb_init.py:init():832] calling init triggers
+2025-11-10 23:10:19,368 INFO    MainThread:1983317 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'model_name': 'bert-base-uncased', 'exp_name': 'bert_base_unfreeze2', 'lr': 2e-05, 'epochs': 40, 'unfreeze_layers': 2, 'use_rule': True, '_wandb': {}}
+2025-11-10 23:10:19,368 INFO    MainThread:1983317 [wandb_init.py:init():880] starting backend
+2025-11-10 23:10:19,368 INFO    MainThread:1983317 [wandb_init.py:init():883] sending inform_init request
+2025-11-10 23:10:19,372 INFO    MainThread:1983317 [wandb_init.py:init():891] backend started and connected
+2025-11-10 23:10:19,376 INFO    MainThread:1983317 [wandb_init.py:init():961] updated telemetry
+2025-11-10 23:10:19,376 INFO    MainThread:1983317 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-11-10 23:10:20,482 INFO    MainThread:1983317 [wandb_init.py:init():1036] starting run threads in backend
+2025-11-10 23:10:20,654 INFO    MainThread:1983317 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-10 23:10:20,654 INFO    MainThread:1983317 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-10 23:10:20,654 INFO    MainThread:1983317 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-10 23:10:20,654 INFO    MainThread:1983317 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-10 23:10:20,655 INFO    MainThread:1983317 [wandb_init.py:init():1076] run started, returning control to user process
+2025-11-10 23:10:21,989 INFO    MainThread:1983317 [wandb_watch.py:_watch():68] Watching
+2025-11-10 23:12:15,346 INFO    MainThread:1983317 [wandb_run.py:_finish():2272] finishing run mjc030225-npu/FeedbackAnalyzer/qdl0hz7g
+2025-11-10 23:12:15,346 INFO    MainThread:1983317 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-10 23:12:15,347 INFO    MainThread:1983317 [wandb_run.py:_restore():2453] restore
+2025-11-10 23:12:15,347 INFO    MainThread:1983317 [wandb_run.py:_restore():2459] restore done
+2025-11-10 23:12:18,221 INFO    MainThread:1983317 [wandb_run.py:_footer_sync_info():3869] logging synced files

@@ -1,0 +1,82 @@
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+roberta_base_lr2e-5_uf2 Epoch 1/40: 100%|█| 39/39 [00:0
+✅ Epoch 1 | Loss=1.4546 | F1=0.227
+roberta_base_lr2e-5_uf2 Epoch 2/40: 100%|█| 39/39 [00:0
+✅ Epoch 2 | Loss=1.3583 | F1=0.308
+roberta_base_lr2e-5_uf2 Epoch 3/40: 100%|█| 39/39 [00:0
+✅ Epoch 3 | Loss=1.1352 | F1=0.599
+roberta_base_lr2e-5_uf2 Epoch 4/40: 100%|█| 39/39 [00:0
+✅ Epoch 4 | Loss=0.7651 | F1=0.716
+roberta_base_lr2e-5_uf2 Epoch 5/40: 100%|█| 39/39 [00:0
+✅ Epoch 5 | Loss=0.5491 | F1=0.793
+roberta_base_lr2e-5_uf2 Epoch 6/40: 100%|█| 39/39 [00:0
+✅ Epoch 6 | Loss=0.4598 | F1=0.795
+roberta_base_lr2e-5_uf2 Epoch 7/40: 100%|█| 39/39 [00:0
+✅ Epoch 7 | Loss=0.3804 | F1=0.810
+roberta_base_lr2e-5_uf2 Epoch 8/40: 100%|█| 39/39 [00:0
+✅ Epoch 8 | Loss=0.3394 | F1=0.815
+roberta_base_lr2e-5_uf2 Epoch 9/40: 100%|█| 39/39 [00:0
+✅ Epoch 9 | Loss=0.3195 | F1=0.815
+roberta_base_lr2e-5_uf2 Epoch 10/40: 100%|█| 39/39 [00:
+✅ Epoch 10 | Loss=0.2937 | F1=0.828
+roberta_base_lr2e-5_uf2 Epoch 11/40: 100%|█| 39/39 [00:
+✅ Epoch 11 | Loss=0.2646 | F1=0.824
+roberta_base_lr2e-5_uf2 Epoch 12/40: 100%|█| 39/39 [00:
+✅ Epoch 12 | Loss=0.2497 | F1=0.832
+roberta_base_lr2e-5_uf2 Epoch 13/40: 100%|█| 39/39 [00:
+✅ Epoch 13 | Loss=0.2405 | F1=0.805
+roberta_base_lr2e-5_uf2 Epoch 14/40: 100%|█| 39/39 [00:
+✅ Epoch 14 | Loss=0.2243 | F1=0.836
+roberta_base_lr2e-5_uf2 Epoch 15/40: 100%|█| 39/39 [00:
+✅ Epoch 15 | Loss=0.2105 | F1=0.835
+roberta_base_lr2e-5_uf2 Epoch 16/40: 100%|█| 39/39 [00:
+✅ Epoch 16 | Loss=0.1962 | F1=0.835
+roberta_base_lr2e-5_uf2 Epoch 17/40: 100%|█| 39/39 [00:
+✅ Epoch 17 | Loss=0.1923 | F1=0.843
+roberta_base_lr2e-5_uf2 Epoch 18/40: 100%|█| 39/39 [00:
+✅ Epoch 18 | Loss=0.1800 | F1=0.836
+roberta_base_lr2e-5_uf2 Epoch 19/40: 100%|█| 39/39 [00:
+✅ Epoch 19 | Loss=0.1711 | F1=0.834
+roberta_base_lr2e-5_uf2 Epoch 20/40: 100%|█| 39/39 [00:
+✅ Epoch 20 | Loss=0.1687 | F1=0.832
+roberta_base_lr2e-5_uf2 Epoch 21/40: 100%|█| 39/39 [00:
+✅ Epoch 21 | Loss=0.1615 | F1=0.832
+roberta_base_lr2e-5_uf2 Epoch 22/40: 100%|█| 39/39 [00:
+✅ Epoch 22 | Loss=0.1588 | F1=0.849
+roberta_base_lr2e-5_uf2 Epoch 23/40: 100%|█| 39/39 [00:
+✅ Epoch 23 | Loss=0.1502 | F1=0.845
+roberta_base_lr2e-5_uf2 Epoch 24/40: 100%|█| 39/39 [00:
+✅ Epoch 24 | Loss=0.1498 | F1=0.843
+roberta_base_lr2e-5_uf2 Epoch 25/40: 100%|█| 39/39 [00:
+✅ Epoch 25 | Loss=0.1397 | F1=0.847
+roberta_base_lr2e-5_uf2 Epoch 26/40: 100%|█| 39/39 [00:
+✅ Epoch 26 | Loss=0.1357 | F1=0.842
+roberta_base_lr2e-5_uf2 Epoch 27/40: 100%|█| 39/39 [00:
+✅ Epoch 27 | Loss=0.1379 | F1=0.848
+roberta_base_lr2e-5_uf2 Epoch 28/40: 100%|█| 39/39 [00:
+✅ Epoch 28 | Loss=0.1335 | F1=0.843
+roberta_base_lr2e-5_uf2 Epoch 29/40: 100%|█| 39/39 [00:
+✅ Epoch 29 | Loss=0.1250 | F1=0.857
+roberta_base_lr2e-5_uf2 Epoch 30/40: 100%|█| 39/39 [00:
+✅ Epoch 30 | Loss=0.1262 | F1=0.857
+roberta_base_lr2e-5_uf2 Epoch 31/40: 100%|█| 39/39 [00:
+✅ Epoch 31 | Loss=0.1233 | F1=0.851
+roberta_base_lr2e-5_uf2 Epoch 32/40: 100%|█| 39/39 [00:
+✅ Epoch 32 | Loss=0.1204 | F1=0.851
+roberta_base_lr2e-5_uf2 Epoch 33/40: 100%|█| 39/39 [00:
+✅ Epoch 33 | Loss=0.1157 | F1=0.843
+roberta_base_lr2e-5_uf2 Epoch 34/40: 100%|█| 39/39 [00:
+✅ Epoch 34 | Loss=0.1174 | F1=0.859
+roberta_base_lr2e-5_uf2 Epoch 35/40: 100%|█| 39/39 [00:
+✅ Epoch 35 | Loss=0.1141 | F1=0.857
+roberta_base_lr2e-5_uf2 Epoch 36/40: 100%|█| 39/39 [00:
+✅ Epoch 36 | Loss=0.1113 | F1=0.857
+roberta_base_lr2e-5_uf2 Epoch 37/40: 100%|█| 39/39 [00:
+✅ Epoch 37 | Loss=0.1120 | F1=0.859
+roberta_base_lr2e-5_uf2 Epoch 38/40: 100%|█| 39/39 [00:
+✅ Epoch 38 | Loss=0.1067 | F1=0.859
+roberta_base_lr2e-5_uf2 Epoch 39/40: 100%|█| 39/39 [00:
+✅ Epoch 39 | Loss=0.1058 | F1=0.859
+roberta_base_lr2e-5_uf2 Epoch 40/40: 100%|█| 39/39 [00:
+✅ Epoch 40 | Loss=0.1117 | F1=0.859

@@ -1,0 +1,84 @@
+vocab.txt: 232kB [00:00, 1.09MB/s]
+config.json: 100%|████| 286/286 [00:00<00:00, 1.60MB/s]
+pytorch_model.bin: 100%|█| 116M/116M [00:07<00:00, 15.8
+bert_small_lr3e-5_uf2 Epoch 1/40: 100%|█| 39/39 [00:00<
+✅ Epoch 1 | Loss=1.3324 | F1=0.441
+bert_small_lr3e-5_uf2 Epoch 2/40: 100%|█| 39/39 [00:00<
+bert_small_lr3e-5_uf2 Epoch 3/40: 100%|█| 39/39 [00:00<
+✅ Epoch 2 | Loss=1.0902 | F1=0.664
+✅ Epoch 3 | Loss=0.8538 | F1=0.727
+bert_small_lr3e-5_uf2 Epoch 4/40: 100%|█| 39/39 [00:00<
+✅ Epoch 4 | Loss=0.6969 | F1=0.755
+bert_small_lr3e-5_uf2 Epoch 5/40: 100%|█| 39/39 [00:00<
+✅ Epoch 5 | Loss=0.5653 | F1=0.779
+bert_small_lr3e-5_uf2 Epoch 6/40: 100%|█| 39/39 [00:00<
+bert_small_lr3e-5_uf2 Epoch 7/40: 100%|█| 39/39 [00:00<
+✅ Epoch 6 | Loss=0.4808 | F1=0.784
+✅ Epoch 7 | Loss=0.4184 | F1=0.798
+bert_small_lr3e-5_uf2 Epoch 8/40: 100%|█| 39/39 [00:00<
+model.safetensors: 100%|█| 116M/116M [00:06<00:00, 18.7
+✅ Epoch 8 | Loss=0.3669 | F1=0.748
+bert_small_lr3e-5_uf2 Epoch 9/40: 100%|█| 39/39 [00:00<
+✅ Epoch 9 | Loss=0.3282 | F1=0.781
+bert_small_lr3e-5_uf2 Epoch 10/40: 100%|█| 39/39 [00:00
+✅ Epoch 10 | Loss=0.2930 | F1=0.788
+bert_small_lr3e-5_uf2 Epoch 11/40: 100%|█| 39/39 [00:00
+✅ Epoch 11 | Loss=0.2692 | F1=0.786
+bert_small_lr3e-5_uf2 Epoch 12/40: 100%|█| 39/39 [00:00
+✅ Epoch 12 | Loss=0.2468 | F1=0.777
+bert_small_lr3e-5_uf2 Epoch 13/40: 100%|█| 39/39 [00:00
+✅ Epoch 13 | Loss=0.2198 | F1=0.759
+bert_small_lr3e-5_uf2 Epoch 14/40: 100%|█| 39/39 [00:00
+✅ Epoch 14 | Loss=0.2105 | F1=0.783
+bert_small_lr3e-5_uf2 Epoch 15/40: 100%|█| 39/39 [00:00
+✅ Epoch 15 | Loss=0.2009 | F1=0.791
+bert_small_lr3e-5_uf2 Epoch 16/40: 100%|█| 39/39 [00:00
+✅ Epoch 16 | Loss=0.1945 | F1=0.757
+bert_small_lr3e-5_uf2 Epoch 17/40: 100%|█| 39/39 [00:00
+✅ Epoch 17 | Loss=0.1724 | F1=0.779
+bert_small_lr3e-5_uf2 Epoch 18/40: 100%|█| 39/39 [00:00
+✅ Epoch 18 | Loss=0.1682 | F1=0.764
+bert_small_lr3e-5_uf2 Epoch 19/40: 100%|█| 39/39 [00:00
+✅ Epoch 19 | Loss=0.1604 | F1=0.768
+bert_small_lr3e-5_uf2 Epoch 20/40: 100%|█| 39/39 [00:00
+✅ Epoch 20 | Loss=0.1502 | F1=0.788
+bert_small_lr3e-5_uf2 Epoch 21/40: 100%|█| 39/39 [00:00
+✅ Epoch 21 | Loss=0.1425 | F1=0.766
+bert_small_lr3e-5_uf2 Epoch 22/40: 100%|█| 39/39 [00:00
+✅ Epoch 22 | Loss=0.1335 | F1=0.758
+bert_small_lr3e-5_uf2 Epoch 23/40: 100%|█| 39/39 [00:00
+✅ Epoch 23 | Loss=0.1316 | F1=0.770
+bert_small_lr3e-5_uf2 Epoch 24/40: 100%|█| 39/39 [00:00
+✅ Epoch 24 | Loss=0.1236 | F1=0.780
+bert_small_lr3e-5_uf2 Epoch 25/40: 100%|█| 39/39 [00:00
+✅ Epoch 25 | Loss=0.1209 | F1=0.784
+bert_small_lr3e-5_uf2 Epoch 26/40: 100%|█| 39/39 [00:00
+✅ Epoch 26 | Loss=0.1173 | F1=0.782
+bert_small_lr3e-5_uf2 Epoch 27/40: 100%|█| 39/39 [00:00
+✅ Epoch 27 | Loss=0.1166 | F1=0.767
+bert_small_lr3e-5_uf2 Epoch 28/40: 100%|█| 39/39 [00:00
+✅ Epoch 28 | Loss=0.1138 | F1=0.773
+bert_small_lr3e-5_uf2 Epoch 29/40: 100%|█| 39/39 [00:00
+✅ Epoch 29 | Loss=0.1075 | F1=0.766
+bert_small_lr3e-5_uf2 Epoch 30/40: 100%|█| 39/39 [00:00
+✅ Epoch 30 | Loss=0.1024 | F1=0.784
+bert_small_lr3e-5_uf2 Epoch 31/40: 100%|█| 39/39 [00:00
+✅ Epoch 31 | Loss=0.1006 | F1=0.759
+bert_small_lr3e-5_uf2 Epoch 32/40: 100%|█| 39/39 [00:00
+✅ Epoch 32 | Loss=0.0992 | F1=0.761
+bert_small_lr3e-5_uf2 Epoch 33/40: 100%|█| 39/39 [00:00
+✅ Epoch 33 | Loss=0.0963 | F1=0.761
+bert_small_lr3e-5_uf2 Epoch 34/40: 100%|█| 39/39 [00:00
+✅ Epoch 34 | Loss=0.0972 | F1=0.767
+bert_small_lr3e-5_uf2 Epoch 35/40: 100%|█| 39/39 [00:00
+✅ Epoch 35 | Loss=0.0958 | F1=0.776
+bert_small_lr3e-5_uf2 Epoch 36/40: 100%|█| 39/39 [00:00
+✅ Epoch 36 | Loss=0.0938 | F1=0.778
+bert_small_lr3e-5_uf2 Epoch 37/40: 100%|█| 39/39 [00:00
+✅ Epoch 37 | Loss=0.0943 | F1=0.767
+bert_small_lr3e-5_uf2 Epoch 38/40: 100%|█| 39/39 [00:00
+✅ Epoch 38 | Loss=0.0906 | F1=0.788
+bert_small_lr3e-5_uf2 Epoch 39/40: 100%|█| 39/39 [00:00
+✅ Epoch 39 | Loss=0.0886 | F1=0.767
+bert_small_lr3e-5_uf2 Epoch 40/40: 100%|█| 39/39 [00:00
+✅ Epoch 40 | Loss=0.0959 | F1=0.767

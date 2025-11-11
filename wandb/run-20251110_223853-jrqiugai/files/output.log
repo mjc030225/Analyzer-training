@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 255, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 198, in run_experiment
+    freeze_ratio=cfg["freeze_ratio"],
+                 ~~~^^^^^^^^^^^^^^^^
+KeyError: 'freeze_ratio'

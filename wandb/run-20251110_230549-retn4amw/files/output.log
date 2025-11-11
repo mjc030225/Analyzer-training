@@ -1,0 +1,80 @@
+bert_small_lr3e-5_uf2 Epoch 1/40: 100%|█| 39/39 [00:00<
+✅ Epoch 1 | Loss=1.3306 | F1=0.488
+bert_small_lr3e-5_uf2 Epoch 2/40: 100%|█| 39/39 [00:00<
+✅ Epoch 2 | Loss=1.0835 | F1=0.675
+bert_small_lr3e-5_uf2 Epoch 3/40: 100%|█| 39/39 [00:00<
+✅ Epoch 3 | Loss=0.8613 | F1=0.727
+bert_small_lr3e-5_uf2 Epoch 4/40: 100%|█| 39/39 [00:00<
+✅ Epoch 4 | Loss=0.7011 | F1=0.732
+bert_small_lr3e-5_uf2 Epoch 5/40: 100%|█| 39/39 [00:00<
+✅ Epoch 5 | Loss=0.5886 | F1=0.768
+bert_small_lr3e-5_uf2 Epoch 6/40: 100%|█| 39/39 [00:00<
+✅ Epoch 6 | Loss=0.4753 | F1=0.777
+bert_small_lr3e-5_uf2 Epoch 7/40: 100%|█| 39/39 [00:00<
+✅ Epoch 7 | Loss=0.4202 | F1=0.772
+bert_small_lr3e-5_uf2 Epoch 8/40: 100%|█| 39/39 [00:00<
+✅ Epoch 8 | Loss=0.3688 | F1=0.777
+bert_small_lr3e-5_uf2 Epoch 9/40: 100%|█| 39/39 [00:00<
+✅ Epoch 9 | Loss=0.3262 | F1=0.814
+bert_small_lr3e-5_uf2 Epoch 10/40: 100%|█| 39/39 [00:00
+✅ Epoch 10 | Loss=0.2975 | F1=0.800
+bert_small_lr3e-5_uf2 Epoch 11/40: 100%|█| 39/39 [00:00
+✅ Epoch 11 | Loss=0.2621 | F1=0.810
+bert_small_lr3e-5_uf2 Epoch 12/40: 100%|█| 39/39 [00:00
+✅ Epoch 12 | Loss=0.2479 | F1=0.816
+bert_small_lr3e-5_uf2 Epoch 13/40: 100%|█| 39/39 [00:00
+✅ Epoch 13 | Loss=0.2265 | F1=0.814
+bert_small_lr3e-5_uf2 Epoch 14/40: 100%|█| 39/39 [00:00
+✅ Epoch 14 | Loss=0.2051 | F1=0.812
+bert_small_lr3e-5_uf2 Epoch 15/40: 100%|█| 39/39 [00:00
+✅ Epoch 15 | Loss=0.1945 | F1=0.805
+bert_small_lr3e-5_uf2 Epoch 16/40: 100%|█| 39/39 [00:00
+✅ Epoch 16 | Loss=0.1883 | F1=0.805
+bert_small_lr3e-5_uf2 Epoch 17/40: 100%|█| 39/39 [00:00
+✅ Epoch 17 | Loss=0.1708 | F1=0.802
+bert_small_lr3e-5_uf2 Epoch 18/40: 100%|█| 39/39 [00:00
+✅ Epoch 18 | Loss=0.1689 | F1=0.797
+bert_small_lr3e-5_uf2 Epoch 19/40: 100%|█| 39/39 [00:00
+✅ Epoch 19 | Loss=0.1549 | F1=0.804
+bert_small_lr3e-5_uf2 Epoch 20/40: 100%|█| 39/39 [00:00
+✅ Epoch 20 | Loss=0.1481 | F1=0.810
+bert_small_lr3e-5_uf2 Epoch 21/40: 100%|█| 39/39 [00:00
+✅ Epoch 21 | Loss=0.1426 | F1=0.802
+bert_small_lr3e-5_uf2 Epoch 22/40: 100%|█| 39/39 [00:00
+✅ Epoch 22 | Loss=0.1348 | F1=0.814
+bert_small_lr3e-5_uf2 Epoch 23/40: 100%|█| 39/39 [00:00
+✅ Epoch 23 | Loss=0.1315 | F1=0.807
+bert_small_lr3e-5_uf2 Epoch 24/40: 100%|█| 39/39 [00:00
+✅ Epoch 24 | Loss=0.1271 | F1=0.806
+bert_small_lr3e-5_uf2 Epoch 25/40: 100%|█| 39/39 [00:00
+✅ Epoch 25 | Loss=0.1211 | F1=0.796
+bert_small_lr3e-5_uf2 Epoch 26/40: 100%|█| 39/39 [00:00
+✅ Epoch 26 | Loss=0.1107 | F1=0.806
+bert_small_lr3e-5_uf2 Epoch 27/40: 100%|█| 39/39 [00:00
+✅ Epoch 27 | Loss=0.1085 | F1=0.795
+bert_small_lr3e-5_uf2 Epoch 28/40: 100%|█| 39/39 [00:00
+✅ Epoch 28 | Loss=0.1082 | F1=0.798
+bert_small_lr3e-5_uf2 Epoch 29/40: 100%|█| 39/39 [00:00
+✅ Epoch 29 | Loss=0.1076 | F1=0.800
+bert_small_lr3e-5_uf2 Epoch 30/40: 100%|█| 39/39 [00:00
+✅ Epoch 30 | Loss=0.1069 | F1=0.797
+bert_small_lr3e-5_uf2 Epoch 31/40: 100%|█| 39/39 [00:00
+✅ Epoch 31 | Loss=0.1016 | F1=0.799
+bert_small_lr3e-5_uf2 Epoch 32/40: 100%|█| 39/39 [00:00
+✅ Epoch 32 | Loss=0.1002 | F1=0.799
+bert_small_lr3e-5_uf2 Epoch 33/40: 100%|█| 39/39 [00:00
+✅ Epoch 33 | Loss=0.0946 | F1=0.803
+bert_small_lr3e-5_uf2 Epoch 34/40: 100%|█| 39/39 [00:00
+✅ Epoch 34 | Loss=0.0934 | F1=0.799
+bert_small_lr3e-5_uf2 Epoch 35/40: 100%|█| 39/39 [00:00
+✅ Epoch 35 | Loss=0.0944 | F1=0.787
+bert_small_lr3e-5_uf2 Epoch 36/40: 100%|█| 39/39 [00:00
+✅ Epoch 36 | Loss=0.0960 | F1=0.803
+bert_small_lr3e-5_uf2 Epoch 37/40: 100%|█| 39/39 [00:00
+✅ Epoch 37 | Loss=0.0913 | F1=0.803
+bert_small_lr3e-5_uf2 Epoch 38/40: 100%|█| 39/39 [00:00
+✅ Epoch 38 | Loss=0.0901 | F1=0.803
+bert_small_lr3e-5_uf2 Epoch 39/40: 100%|█| 39/39 [00:00
+✅ Epoch 39 | Loss=0.0878 | F1=0.803
+bert_small_lr3e-5_uf2 Epoch 40/40: 100%|█| 39/39 [00:00
+✅ Epoch 40 | Loss=0.0857 | F1=0.803

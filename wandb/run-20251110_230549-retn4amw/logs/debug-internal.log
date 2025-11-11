@@ -1,0 +1,12 @@
+{"time":"2025-11-10T23:05:49.191535863+04:00","level":"INFO","msg":"stream: starting","core version":"0.22.1"}
+{"time":"2025-11-10T23:05:49.596008777+04:00","level":"INFO","msg":"stream: created new stream","id":"retn4amw"}
+{"time":"2025-11-10T23:05:49.596048293+04:00","level":"INFO","msg":"handler: started","stream_id":"retn4amw"}
+{"time":"2025-11-10T23:05:49.597892299+04:00","level":"INFO","msg":"stream: started","id":"retn4amw"}
+{"time":"2025-11-10T23:05:49.5978997+04:00","level":"INFO","msg":"writer: started","stream_id":"retn4amw"}
+{"time":"2025-11-10T23:05:49.597902386+04:00","level":"INFO","msg":"sender: started","stream_id":"retn4amw"}
+{"time":"2025-11-10T23:06:28.022749413+04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.001341799}],"total_operations":1}}
+{"time":"2025-11-10T23:06:29.636650565+04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T23:06:30.032305513+04:00","level":"INFO","msg":"stream: closing","id":"retn4amw"}
+{"time":"2025-11-10T23:06:30.03232209+04:00","level":"INFO","msg":"handler: closed","stream_id":"retn4amw"}
+{"time":"2025-11-10T23:06:30.033541485+04:00","level":"INFO","msg":"sender: closed","stream_id":"retn4amw"}
+{"time":"2025-11-10T23:06:30.033550185+04:00","level":"INFO","msg":"stream: closed","id":"retn4amw"}

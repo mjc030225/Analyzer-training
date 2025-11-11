@@ -1,0 +1,12 @@
+{"time":"2025-11-10T23:36:46.208255975+04:00","level":"INFO","msg":"stream: starting","core version":"0.22.1"}
+{"time":"2025-11-10T23:36:46.608209748+04:00","level":"INFO","msg":"stream: created new stream","id":"todfdoej"}
+{"time":"2025-11-10T23:36:46.608267894+04:00","level":"INFO","msg":"handler: started","stream_id":"todfdoej"}
+{"time":"2025-11-10T23:36:46.610039596+04:00","level":"INFO","msg":"stream: started","id":"todfdoej"}
+{"time":"2025-11-10T23:36:46.610050907+04:00","level":"INFO","msg":"writer: started","stream_id":"todfdoej"}
+{"time":"2025-11-10T23:36:46.610057949+04:00","level":"INFO","msg":"sender: started","stream_id":"todfdoej"}
+{"time":"2025-11-10T23:39:11.133329198+04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.001172651}],"total_operations":1}}
+{"time":"2025-11-10T23:39:13.800165173+04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T23:39:14.498226262+04:00","level":"INFO","msg":"stream: closing","id":"todfdoej"}
+{"time":"2025-11-10T23:39:14.498244926+04:00","level":"INFO","msg":"handler: closed","stream_id":"todfdoej"}
+{"time":"2025-11-10T23:39:14.499453515+04:00","level":"INFO","msg":"sender: closed","stream_id":"todfdoej"}
+{"time":"2025-11-10T23:39:14.499478489+04:00","level":"INFO","msg":"stream: closed","id":"todfdoej"}

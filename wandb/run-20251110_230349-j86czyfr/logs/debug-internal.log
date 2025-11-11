@@ -1,0 +1,12 @@
+{"time":"2025-11-10T23:03:49.502405953+04:00","level":"INFO","msg":"stream: starting","core version":"0.22.1"}
+{"time":"2025-11-10T23:03:49.912900392+04:00","level":"INFO","msg":"stream: created new stream","id":"j86czyfr"}
+{"time":"2025-11-10T23:03:49.91295895+04:00","level":"INFO","msg":"handler: started","stream_id":"j86czyfr"}
+{"time":"2025-11-10T23:03:49.914021232+04:00","level":"INFO","msg":"stream: started","id":"j86czyfr"}
+{"time":"2025-11-10T23:03:49.914030876+04:00","level":"INFO","msg":"writer: started","stream_id":"j86czyfr"}
+{"time":"2025-11-10T23:03:49.914031518+04:00","level":"INFO","msg":"sender: started","stream_id":"j86czyfr"}
+{"time":"2025-11-10T23:05:46.293386537+04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-10T23:05:48.424389578+04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T23:05:49.139773883+04:00","level":"INFO","msg":"stream: closing","id":"j86czyfr"}
+{"time":"2025-11-10T23:05:49.139792705+04:00","level":"INFO","msg":"handler: closed","stream_id":"j86czyfr"}
+{"time":"2025-11-10T23:05:49.140933004+04:00","level":"INFO","msg":"sender: closed","stream_id":"j86czyfr"}
+{"time":"2025-11-10T23:05:49.140953877+04:00","level":"INFO","msg":"stream: closed","id":"j86czyfr"}

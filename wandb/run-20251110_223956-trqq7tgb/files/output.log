@@ -1,0 +1,30 @@
+bert_base_lr2e-5_uf2 Epoch 1/40: 100%|█| 39/39 [00:02<0
+✅ Epoch 1 | Loss=1.3909 | F1=0.463
+bert_base_lr2e-5_uf2 Epoch 2/40: 100%|█| 39/39 [00:02<0
+✅ Epoch 2 | Loss=1.0809 | F1=0.695
+bert_base_lr2e-5_uf2 Epoch 3/40: 100%|█| 39/39 [00:02<0
+✅ Epoch 3 | Loss=0.8015 | F1=0.727
+bert_base_lr2e-5_uf2 Epoch 4/40:   0%| | 0/39 [00:00<?,Exception ignored in: <function WeakSet.__init__.<locals>._remove at 0x15555510c680>
+Traceback (most recent call last):
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/_weakrefset.py", line 39, in _remove
+    def _remove(item, selfref=ref(self)):
+
+KeyboardInterrupt:
+bert_base_lr2e-5_uf2 Epoch 4/40:  74%|▋| 29/39 [00:02<0
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 255, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 208, in run_experiment
+    train_loss, val_f1 = train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, cfg)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 156, in train_model
+    loss.backward()
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

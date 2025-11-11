@@ -1,0 +1,21 @@
+bert_base_lr2e-5_uf2 Epoch 1/50: 100%|█| 39/39 [00:02<0
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.524 | Acc=0.684 | P=0.802 | R=0.577
+urgency    | F1=0.505 | Acc=0.761 | P=0.513 | R=0.515
+topic      | F1=0.177 | Acc=0.329 | P=0.409 | R=0.216
+action     | F1=0.147 | Acc=0.535 | P=0.213 | R=0.185
+------------------------------------------------------------
+✅ Overall Avg | F1=0.338 | Acc=0.577 | P=0.484 | R=0.373
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 469, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 258, in run_experiment
+    train_loss, val_f1 = train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, cfg)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 212, in train_model
+    avg_f1, f1s = evaluate(model, val_loader)
+    ^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)

@@ -1,0 +1,86 @@
+vocab.json: 100%|███| 899k/899k [00:00<00:00, 4.35MB/s]
+merges.txt: 100%|███| 456k/456k [00:00<00:00, 27.9MB/s]
+You are using a model of type roberta to instantiate a model of type bert. This is not supported for all configurations of models and can yield errors.
+model.safetensors: 100%|█| 499M/499M [00:06<00:00, 78.4
+Some weights of BertModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['embeddings.LayerNorm.bias', 'embeddings.LayerNorm.weight', 'embeddings.position_embeddings.weight', 'embeddings.token_type_embeddings.weight', 'embeddings.word_embeddings.weight', 'encoder.layer.0.attention.output.LayerNorm.bias', 'encoder.layer.0.attention.output.LayerNorm.weight', 'encoder.layer.0.attention.output.dense.bias', 'encoder.layer.0.attention.output.dense.weight', 'encoder.layer.0.attention.self.key.bias', 'encoder.layer.0.attention.self.key.weight', 'encoder.layer.0.attention.self.query.bias', 'encoder.layer.0.attention.self.query.weight', 'encoder.layer.0.attention.self.value.bias', 'encoder.layer.0.attention.self.value.weight', 'encoder.layer.0.intermediate.dense.bias', 'encoder.layer.0.intermediate.dense.weight', 'encoder.layer.0.output.LayerNorm.bias', 'encoder.layer.0.output.LayerNorm.weight', 'encoder.layer.0.output.dense.bias', 'encoder.layer.0.output.dense.weight', 'encoder.layer.1.attention.output.LayerNorm.bias', 'encoder.layer.1.attention.output.LayerNorm.weight', 'encoder.layer.1.attention.output.dense.bias', 'encoder.layer.1.attention.output.dense.weight', 'encoder.layer.1.attention.self.key.bias', 'encoder.layer.1.attention.self.key.weight', 'encoder.layer.1.attention.self.query.bias', 'encoder.layer.1.attention.self.query.weight', 'encoder.layer.1.attention.self.value.bias', 'encoder.layer.1.attention.self.value.weight', 'encoder.layer.1.intermediate.dense.bias', 'encoder.layer.1.intermediate.dense.weight', 'encoder.layer.1.output.LayerNorm.bias', 'encoder.layer.1.output.LayerNorm.weight', 'encoder.layer.1.output.dense.bias', 'encoder.layer.1.output.dense.weight', 'encoder.layer.10.attention.output.LayerNorm.bias', 'encoder.layer.10.attention.output.LayerNorm.weight', 'encoder.layer.10.attention.output.dense.bias', 'encoder.layer.10.attention.output.dense.weight', 'encoder.layer.10.attention.self.key.bias', 'encoder.layer.10.attention.self.key.weight', 'encoder.layer.10.attention.self.query.bias', 'encoder.layer.10.attention.self.query.weight', 'encoder.layer.10.attention.self.value.bias', 'encoder.layer.10.attention.self.value.weight', 'encoder.layer.10.intermediate.dense.bias', 'encoder.layer.10.intermediate.dense.weight', 'encoder.layer.10.output.LayerNorm.bias', 'encoder.layer.10.output.LayerNorm.weight', 'encoder.layer.10.output.dense.bias', 'encoder.layer.10.output.dense.weight', 'encoder.layer.11.attention.output.LayerNorm.bias', 'encoder.layer.11.attention.output.LayerNorm.weight', 'encoder.layer.11.attention.output.dense.bias', 'encoder.layer.11.attention.output.dense.weight', 'encoder.layer.11.attention.self.key.bias', 'encoder.layer.11.attention.self.key.weight', 'encoder.layer.11.attention.self.query.bias', 'encoder.layer.11.attention.self.query.weight', 'encoder.layer.11.attention.self.value.bias', 'encoder.layer.11.attention.self.value.weight', 'encoder.layer.11.intermediate.dense.bias', 'encoder.layer.11.intermediate.dense.weight', 'encoder.layer.11.output.LayerNorm.bias', 'encoder.layer.11.output.LayerNorm.weight', 'encoder.layer.11.output.dense.bias', 'encoder.layer.11.output.dense.weight', 'encoder.layer.2.attention.output.LayerNorm.bias', 'encoder.layer.2.attention.output.LayerNorm.weight', 'encoder.layer.2.attention.output.dense.bias', 'encoder.layer.2.attention.output.dense.weight', 'encoder.layer.2.attention.self.key.bias', 'encoder.layer.2.attention.self.key.weight', 'encoder.layer.2.attention.self.query.bias', 'encoder.layer.2.attention.self.query.weight', 'encoder.layer.2.attention.self.value.bias', 'encoder.layer.2.attention.self.value.weight', 'encoder.layer.2.intermediate.dense.bias', 'encoder.layer.2.intermediate.dense.weight', 'encoder.layer.2.output.LayerNorm.bias', 'encoder.layer.2.output.LayerNorm.weight', 'encoder.layer.2.output.dense.bias', 'encoder.layer.2.output.dense.weight', 'encoder.layer.3.attention.output.LayerNorm.bias', 'encoder.layer.3.attention.output.LayerNorm.weight', 'encoder.layer.3.attention.output.dense.bias', 'encoder.layer.
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+roberta_base_lr2e-5_uf2 Epoch 1/40: 100%|█| 39/39 [00:0
+✅ Epoch 1 | Loss=1.4240 | F1=0.332
+roberta_base_lr2e-5_uf2 Epoch 2/40: 100%|█| 39/39 [00:0
+✅ Epoch 2 | Loss=1.3684 | F1=0.454
+roberta_base_lr2e-5_uf2 Epoch 3/40: 100%|█| 39/39 [00:0
+✅ Epoch 3 | Loss=1.3123 | F1=0.481
+roberta_base_lr2e-5_uf2 Epoch 4/40: 100%|█| 39/39 [00:0
+✅ Epoch 4 | Loss=1.2480 | F1=0.496
+roberta_base_lr2e-5_uf2 Epoch 5/40: 100%|█| 39/39 [00:0
+✅ Epoch 5 | Loss=1.1926 | F1=0.584
+roberta_base_lr2e-5_uf2 Epoch 6/40: 100%|█| 39/39 [00:0
+✅ Epoch 6 | Loss=1.1356 | F1=0.555
+roberta_base_lr2e-5_uf2 Epoch 7/40: 100%|█| 39/39 [00:0
+✅ Epoch 7 | Loss=1.0956 | F1=0.598
+roberta_base_lr2e-5_uf2 Epoch 8/40: 100%|█| 39/39 [00:0
+✅ Epoch 8 | Loss=1.0334 | F1=0.617
+roberta_base_lr2e-5_uf2 Epoch 9/40: 100%|█| 39/39 [00:0
+✅ Epoch 9 | Loss=0.9654 | F1=0.627
+roberta_base_lr2e-5_uf2 Epoch 10/40: 100%|█| 39/39 [00:
+✅ Epoch 10 | Loss=0.9015 | F1=0.637
+roberta_base_lr2e-5_uf2 Epoch 11/40: 100%|█| 39/39 [00:
+✅ Epoch 11 | Loss=0.8374 | F1=0.617
+roberta_base_lr2e-5_uf2 Epoch 12/40: 100%|█| 39/39 [00:
+✅ Epoch 12 | Loss=0.7694 | F1=0.654
+roberta_base_lr2e-5_uf2 Epoch 13/40: 100%|█| 39/39 [00:
+✅ Epoch 13 | Loss=0.7193 | F1=0.664
+roberta_base_lr2e-5_uf2 Epoch 14/40: 100%|█| 39/39 [00:
+✅ Epoch 14 | Loss=0.6577 | F1=0.623
+roberta_base_lr2e-5_uf2 Epoch 15/40: 100%|█| 39/39 [00:
+✅ Epoch 15 | Loss=0.5996 | F1=0.646
+roberta_base_lr2e-5_uf2 Epoch 16/40: 100%|█| 39/39 [00:
+✅ Epoch 16 | Loss=0.5787 | F1=0.679
+roberta_base_lr2e-5_uf2 Epoch 17/40: 100%|█| 39/39 [00:
+✅ Epoch 17 | Loss=0.5309 | F1=0.688
+roberta_base_lr2e-5_uf2 Epoch 18/40: 100%|█| 39/39 [00:
+✅ Epoch 18 | Loss=0.4968 | F1=0.693
+roberta_base_lr2e-5_uf2 Epoch 19/40: 100%|█| 39/39 [00:
+✅ Epoch 19 | Loss=0.4612 | F1=0.694
+roberta_base_lr2e-5_uf2 Epoch 20/40: 100%|█| 39/39 [00:
+✅ Epoch 20 | Loss=0.4368 | F1=0.668
+roberta_base_lr2e-5_uf2 Epoch 21/40: 100%|█| 39/39 [00:
+✅ Epoch 21 | Loss=0.3945 | F1=0.666
+roberta_base_lr2e-5_uf2 Epoch 22/40: 100%|█| 39/39 [00:
+✅ Epoch 22 | Loss=0.3735 | F1=0.668
+roberta_base_lr2e-5_uf2 Epoch 23/40: 100%|█| 39/39 [00:
+✅ Epoch 23 | Loss=0.3784 | F1=0.622
+roberta_base_lr2e-5_uf2 Epoch 24/40: 100%|█| 39/39 [00:
+✅ Epoch 24 | Loss=0.3430 | F1=0.700
+roberta_base_lr2e-5_uf2 Epoch 25/40: 100%|█| 39/39 [00:
+✅ Epoch 25 | Loss=0.3359 | F1=0.702
+roberta_base_lr2e-5_uf2 Epoch 26/40: 100%|█| 39/39 [00:
+✅ Epoch 26 | Loss=0.3221 | F1=0.734
+roberta_base_lr2e-5_uf2 Epoch 27/40: 100%|█| 39/39 [00:
+✅ Epoch 27 | Loss=0.3081 | F1=0.690
+roberta_base_lr2e-5_uf2 Epoch 28/40: 100%|█| 39/39 [00:
+✅ Epoch 28 | Loss=0.2968 | F1=0.691
+roberta_base_lr2e-5_uf2 Epoch 29/40: 100%|█| 39/39 [00:
+✅ Epoch 29 | Loss=0.2819 | F1=0.695
+roberta_base_lr2e-5_uf2 Epoch 30/40: 100%|█| 39/39 [00:
+✅ Epoch 30 | Loss=0.2794 | F1=0.689
+roberta_base_lr2e-5_uf2 Epoch 31/40: 100%|█| 39/39 [00:
+✅ Epoch 31 | Loss=0.2762 | F1=0.688
+roberta_base_lr2e-5_uf2 Epoch 32/40: 100%|█| 39/39 [00:
+✅ Epoch 32 | Loss=0.2615 | F1=0.687
+roberta_base_lr2e-5_uf2 Epoch 33/40: 100%|█| 39/39 [00:
+✅ Epoch 33 | Loss=0.2571 | F1=0.712
+roberta_base_lr2e-5_uf2 Epoch 34/40: 100%|█| 39/39 [00:
+✅ Epoch 34 | Loss=0.2504 | F1=0.709
+roberta_base_lr2e-5_uf2 Epoch 35/40: 100%|█| 39/39 [00:
+✅ Epoch 35 | Loss=0.2417 | F1=0.659
+roberta_base_lr2e-5_uf2 Epoch 36/40: 100%|█| 39/39 [00:
+✅ Epoch 36 | Loss=0.2412 | F1=0.687
+roberta_base_lr2e-5_uf2 Epoch 37/40: 100%|█| 39/39 [00:
+✅ Epoch 37 | Loss=0.2381 | F1=0.701
+roberta_base_lr2e-5_uf2 Epoch 38/40: 100%|█| 39/39 [00:
+✅ Epoch 38 | Loss=0.2435 | F1=0.684
+roberta_base_lr2e-5_uf2 Epoch 39/40: 100%|█| 39/39 [00:
+✅ Epoch 39 | Loss=0.2349 | F1=0.684
+roberta_base_lr2e-5_uf2 Epoch 40/40: 100%|█| 39/39 [00:
+✅ Epoch 40 | Loss=0.2421 | F1=0.671

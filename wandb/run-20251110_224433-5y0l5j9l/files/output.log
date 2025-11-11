@@ -1,0 +1,24 @@
+tokenizer_config.json: 100%|█| 25.0/25.0 [00:00<00:00, 
+tokenizer.json: 100%|█| 1.36M/1.36M [00:00<00:00, 3.48M
+config.json: 100%|████| 481/481 [00:00<00:00, 2.67MB/s]
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'RobertaTokenizer'.
+The class this function is called from is 'BertTokenizer'.
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 255, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 188, in run_experiment
+    tokenizer = tokenizer_cls.from_pretrained(cfg["model_name"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2097, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 2343, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/tokenization_bert.py", line 114, in __init__
+    if not os.path.isfile(vocab_file):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 30, in isfile
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType

@@ -1,45 +1,156 @@
-id,feedback_text,sentiment,topic,urgency,action
-101,Portion sizes were too small,negative,catering,high,contact venue
-216,Great variety of snacks and drinks,positive,catering,low,none
-140,No comments,neutral,overall,low,none
-179,A truly great learning opportunity,positive,overall,low,none
-16,Ok,neutral,overall,low,none
-155,Everything went smoothly and according to plan,positive,overall,low,none
-171,"Demo machine was running extremely slow, wasting a lot of time",negative,equipment/setup,high,inform coordinators
-74,Room size was too small for the group,negative,venue,high,contact venue
-208,I regret spending my company's money on this,negative,overall,high,escalate
-141,"From my side, Content felt outdated for our industry",negative,content,high,modify course content
-190,Fast Wi-Fi and good projector quality,positive,equipment/setup,low,none
-31,Overall experience was great; well organized event,positive,overall,low,none
-212,Unpleasant smell in the training room,negative,venue,high,contact venue
-10,"Wasted money, I didn’t pay for this",negative,overall,high,escalate
-68,Case studies were practical and well chosen,positive,content,low,none
-178,Good location with ample parking,positive,venue,low,none
-174,Handouts were informative and high quality,positive,material,low,none
-19,the materials i received is for the wrong course,negative,material,high,inform coordinators
-156,Catering was okay,neutral,catering,low,none
-67,Overall experience was great; well‑organized event,positive,overall,low,none
-193,The last two modules were rushed and unclear,negative,content,high,escalate
-144,"In my delivery, Everything went smoothly and according to plan",positive,overall,low,none
-80,"Too much theory, not enough practical exercises",negative,content,high,inform instructor
-26,Menu was simple but fine,neutral,catering,low,none
-114,"From my side, Wi‑Fi was unstable throughout the day",negative,equipment/setup,high,inform coordinators
-148,I think Catering was okay,neutral,catering,low,none
-177,Content was relevant and up-to-date,positive,content,low,none
-17,Good,positive,overall,low,none
-46,Water bottles ran out quickly,negative,catering,medium,contact venue
-153,I think Examples were not relevant to our context,negative,content,medium,inform instructor
-110,"In my delivery, Wi‑Fi was unstable throughout the day",negative,equipment/setup,high,inform coordinators
-56,Great experience overall,positive,overall,low,none
-214,The material part was neither good nor bad,neutral,material,low,none
-195,The primary monitor kept turning off,negative,equipment/setup,high,contact venue
-109,Room layout worked well for activities,positive,venue,low,none
-163,I think Not worth the price paid,negative,overall,high,escalate
-76,"In my delivery, Examples were not relevant to our context",negative,content,high,inform instructor
-137,I think Content matched the agenda,neutral,content,low,none
-120,I think Tone came across as dismissive of questions,negative,instructor,high,escalate
-204,Material was well-structured and comprehensive,positive,content,low,none
-97,Wi‑Fi was unstable throughout the day,negative,equipment/setup,medium,inform coordinators
-186,Instructor made complex topics easy to understand,positive,instructor,low,none
-119,Laptop adapter was missing at the start,negative,equipment/setup,medium,inform coordinators
-94,Standard room; acceptable,neutral,venue,low,none
+feedback_text,sentiment,topic,urgency,action,source
+The tables were wobbly and constantly shook while typing.,negative,equipment/setup,low,contact venue,synthetic
+Standard check-in process.,neutral,venue,low,none,synthetic
+Trainer gossiped about past course participants.,negative,instructor,medium,escalate,synthetic
+The handouts were printed.,neutral,material,low,none,synthetic
+No strong feelings either way.,neutral,overall,low,none,synthetic
+All computers booted quickly and ran the software efficiently.,positive,equipment/setup,low,none,synthetic
+Standard computer equipment.,neutral,equipment/setup,low,none,synthetic
+"The 5-day program was well-paced and challenging. The instructor created a great, warm environment for participants.",positive,instructor,low,none,synthetic
+topics were interesting and engaging,positive,content,low,none,real
+I found the practical exercises to be extremely beneficial.,positive,content,low,none,synthetic
+The structure was standard.,neutral,content,low,none,synthetic
+Printed materials did not arrive in time,negative,material,medium,inform coordinators,real
+Slides contained several factual errors,negative,material,high,inform coordinators,synthetic
+WiFi was unstable throughout the day,negative,equipment/setup,high,inform coordinators,real
+The coffee tasted like absolute hell. I am furious about the low quality.,negative,catering,high,contact venue,synthetic
+Instructor seemed knowledgeable.,neutral,instructor,low,none,synthetic
+Fantastic location with easy access and parking.,positive,venue,low,none,synthetic
+Overall experience was great; well organized event,positive,overall,low,none,real
+Valet service took an unacceptable 30 minutes to retrieve my car.,negative,venue,medium,contact venue,real
+Case studies were practical and well chosen,positive,content,low,none,real
+Equipment was adequate,neutral,equipment/setup,low,none,real
+The instructor used excellent real-world examples.,positive,instructor,low,none,synthetic
+Laptop adapter was missing at the start,negative,equipment/setup,medium,inform coordinators,real
+The microphone was screeching with feedback noise. My ears are ringing.,negative,equipment/setup,high,contact venue,synthetic
+rasict instructor with really bad attitude,negative,content,high,escalate,real
+The front desk was unattended for over 15 minutes during a key moment.,negative,venue,high,contact venue,synthetic
+Lunch was cold and the food was dry,negative,catering,high,contact venue,real
+Catering was okay,neutral,catering,low,none,real
+The room had a strong smell of burnt plastic when the projector was on.,negative,equipment/setup,high,escalate,synthetic
+I am ready to tear out my hair in frustration. Everything went wrong!,negative,overall,high,escalate,synthetic
+Our specific training environment login credentials did not work.,negative,equipment/setup,high,inform coordinators,synthetic
+The slides were clearly formatted.,neutral,material,low,none,synthetic
+The post-course assessment link was broken.,negative,material,high,inform coordinators,synthetic
+Highly disappointing course content.,negative,content,high,escalate,synthetic
+Trainer was rude to venue staff in front of us.,negative,instructor,medium,escalate,synthetic
+Technical support staff were unresponsive to equipment issues.,negative,equipment/setup,high,contact venue,synthetic
+Dedicated charging stations were very thoughtful and useful.,positive,equipment/setup,low,none,synthetic
+"The 10-day training was extremely comprehensive, but the content could be streamlined to cover less in more detail.",neutral,content,low,modify course content,synthetic
+The venue offered easy access to clean restrooms.,positive,venue,low,none,synthetic
+The room was set up quickly.,neutral,equipment/setup,low,none,synthetic
+I am absolutely livid about the personal insults directed at my team.,negative,instructor,high,escalate,synthetic
+A decent overview of the subject.,neutral,content,low,none,synthetic
+The drinks were cold.,neutral,catering,low,none,synthetic
+The operating system on the lab machines was severely outdated.,negative,equipment/setup,medium,contact venue,synthetic
+The trainer was appallingly biased and clearly playing favorites. Unacceptable!,negative,instructor,high,escalate,synthetic
+I will never attend another course taught by that individual.,negative,instructor,high,escalate,synthetic
+"From my side, Water bottles ran out quickly",negative,catering,high,contact venue,real
+Instructor was patient and gave everyone a chance to speak.,positive,instructor,low,none,synthetic
+Valet service lost my car keys and offered no apology.,negative,venue,high,escalate,synthetic
+Please provide a printed manual next time. Having to rely solely on the digital materials for the whole 10 days was tough on the eyes.,negative,material,medium,modify course content,synthetic
+The scope of the content was too broad.,neutral,content,low,modify course content,synthetic
+Average cleanliness.,neutral,venue,low,none,synthetic
+"Five stars, everything was perfect",positive,overall,low,none,synthetic
+This was the best-structured course I have ever attended.,positive,content,low,none,synthetic
+The variety of snacks included both healthy and sweet options.,positive,catering,low,none,synthetic
+"It was fine, neither great nor terrible.",neutral,overall,low,none,synthetic
+Materials were well-organized and easy to follow.,positive,material,low,none,synthetic
+The instructor had an unacceptable attitude all week.,negative,instructor,high,escalate,synthetic
+Overall experience was great; well organized event,positive,overall,low,none,real
+Sound system produced terrible static noise throughout the morning.,negative,equipment/setup,high,contact venue,synthetic
+Food options were great and everyone enjoyed the variety,positive,catering,low,none,real
+Microphone kept cutting out when moving around,negative,equipment/setup,high,inform coordinators,real
+no issues,neutral,overall,low,none,real
+All equipment worked perfectly,positive,equipment/setup,low,none,synthetic
+The Wi-Fi was usable.,neutral,equipment/setup,low,none,synthetic
+The course content was challenging yet accessible.,positive,content,low,none,synthetic
+The main projector lamp burned out on the second day and was not replaced.,negative,equipment/setup,high,contact venue,synthetic
+The group exercises were highly valuable.,positive,content,low,none,synthetic
+The provided headphones were covered in disgusting grime. Unsanitary and unacceptable.,negative,equipment/setup,high,contact venue,synthetic
+The instructor had to borrow a marker from an attendee.,negative,equipment/setup,low,contact venue,synthetic
+The whiteboard erasers were worn down and left streaks.,negative,equipment/setup,low,contact venue,synthetic
+The keyboard layout was unfamiliar and difficult to use.,negative,equipment/setup,low,contact venue,synthetic
+Fantastic delivery by the trainer,positive,instructor,low,none,synthetic
+Instructor repeatedly used profanity in class.,negative,instructor,high,escalate,synthetic
+He spent half the time on a personal rant—what the heck is going on?,negative,instructor,high,escalate,synthetic
+I think Needed to manage time better; skipped Q&A,negative,instructor,high,inform coordinators,real
+The room's A/V setup was clear and loud without being jarring.,positive,equipment/setup,low,none,synthetic
+"The room lacked any blinds, making the screen visibility difficult.",negative,equipment/setup,medium,contact venue,synthetic
+The fruit was clearly rotten. Who the heck checks the quality here?,negative,catering,high,contact venue,synthetic
+Venue was fine; nothing special,neutral,venue,low,none,real
+Portions were adequate.,neutral,catering,low,none,synthetic
+Instructor provided excellent supplementary examples.,positive,instructor,low,none,synthetic
+I highly recommend this program to colleagues.,positive,overall,low,none,synthetic
+The specialized hardware was not delivered as promised. The whole practical segment is now useless. Damn!,negative,equipment/setup,high,inform coordinators,real
+The variety of herbal teas was appreciated.,positive,catering,low,none,synthetic
+Instructor was adequate.,neutral,instructor,low,none,synthetic
+The chairs were just okay.,neutral,equipment/setup,low,none,synthetic
+Content felt a little basic over the 5 days.,neutral,content,low,modify course content,synthetic
+A five-star training from beginning to end.,positive,overall,low,none,synthetic
+The flip chart paper was missing and we had to improvise.,negative,equipment/setup,low,contact venue,synthetic
+No issues to report,neutral,overall,low,none,real
+I would totally recommend this company to my colleagues,positive,overall,low,none,real
+Valet overcharged me significantly and refused to adjust the rate.,negative,venue,high,escalate,synthetic
+The A/V remote was sticky and covered in food residue.,negative,equipment/setup,high,contact venue,synthetic
+I learned what I expected.,neutral,instructor,low,none,synthetic
+The content depth was exactly what I needed.,positive,content,low,none,synthetic
+The venue was clean and well-maintained.,positive,venue,low,none,synthetic
+Restrooms were not clean during the break,negative,venue,low,contact venue,real
+Venue provided a comfortable and professional learning environment.,positive,venue,low,none,synthetic
+"The fire alarm went off, and the staff had no damn idea what to do. Total panic.",negative,venue,high,escalate,synthetic
+Venue was convenient and comfortable,positive,venue,low,none,real
+It was an average experience.,neutral,overall,low,none,synthetic
+The instructor singled out one participant for criticism.,negative,instructor,high,escalate,synthetic
+An awesome work. Content was relevant and well presented. Catering was great as usual for the week-long course.,positive,catering,low,none,synthetic
+I think Everything went smoothly and according to plan,positive,overall,low,none,real
+Content was up-to-date and perfectly relevant to my job.,positive,content,low,none,synthetic
+The whole experience was nothing short of a travesty. Refund now!,negative,overall,high,escalate,synthetic
+All IT equipment worked flawlessly; great setup.,positive,equipment/setup,low,none,synthetic
+Material relevance was perfect for my job role.,positive,content,low,none,synthetic
+The last two modules were rushed and unclear,negative,content,high,escalate,synthetic
+I ate the food.,neutral,catering,low,none,synthetic
+Content was acceptable,neutral,content,low,none,real
+The material was acceptable.,neutral,material,low,none,synthetic
+"The lock on the classroom door was jammed, delaying our entry.",negative,equipment/setup,medium,contact venue,synthetic
+Important topics were skipped,negative,content,high,escalate,real
+The software licenses expired mid-lecture. This is damn incompetence!,negative,equipment/setup,high,inform coordinators,synthetic
+The instructor was exceptionally articulate.,positive,instructor,low,none,synthetic
+I feel like the training was a bait-and-switch,negative,overall,high,inform coordinators,synthetic
+Lighting was poor and tiring on the eyes,negative,venue,high,contact venue,real
+The tea selection was limited.,neutral,catering,low,none,synthetic
+The promises made in the brochure were all blatant lies!,negative,overall,high,escalate,real
+Some content was factually inaccurate.,negative,content,high,modify course content,synthetic
+This damn course leader couldn't answer basic questions about the material.,negative,instructor,high,inform coordinators,synthetic
+The whiteboard markers were bone-dry. How hard is it to check supplies?,negative,equipment/setup,high,contact venue,synthetic
+,neutral,overall,low,none,real
+No noticeable issues with the venue.,neutral,venue,low,none,synthetic
+The room's emergency exit sign was burnt out.,negative,equipment/setup,high,escalate,synthetic
+Digital materials were shared promptly,positive,material,low,none,synthetic
+I was left in a state of rage over the instructor's dismissive attitude.,negative,instructor,high,escalate,synthetic
+This entire setup is an insult to a professional course.,negative,equipment/setup,high,escalate,synthetic
+The vegetarian option was a single dry slice of toast. I was left starving!,negative,catering,high,contact venue,synthetic
+Excellent,positive,overall,low,none,real
+"It was okay, met basic expectations",neutral,overall,low,none,synthetic
+Wifi was unstable throughout the day,negative,equipment/setup,high,inform coordinators,real
+A professionally delivered and excellent program.,positive,overall,low,none,synthetic
+A regular trainer.,neutral,instructor,low,none,synthetic
+I found the course completely pointless.,negative,overall,high,escalate,synthetic
+Noise outside the room in the hall,negative,venue,high,contact venue,real
+The keyboard keys were so sticky it was disgusting to touch them.,negative,equipment/setup,high,inform coordinators,real
+The instructor was highly responsive to feedback.,positive,instructor,low,none,synthetic
+Standard teaching style.,neutral,instructor,low,none,synthetic
+Unpleasant smell in the training room,negative,venue,high,contact venue,synthetic
+Served on time.,neutral,catering,low,none,synthetic
+"A wonderful experience, exceeded expectations.",positive,overall,low,none,synthetic
+Trainer kept the energy high throughout.,positive,instructor,low,none,synthetic
+Coffee breaks were very refreshing,positive,catering,low,none,synthetic
+The audio system was crystal clear.,positive,equipment/setup,low,none,synthetic
+Projector kept disconnecting every 10-day session.,negative,equipment/setup,high,contact venue,synthetic
+I was disgusted to find hair in my dinner. Unacceptable and sickening.,negative,catering,high,contact venue,synthetic
+"Too much theory, not enough practical exercises",negative,content,high,inform instructor,real
+I think Handouts were missing several pages,negative,material,high,inform coordinators,real
+"Instructor spent too much time on personal, divisive politics.",negative,instructor,medium,escalate,synthetic
+The provided software had an expired trial license.,negative,equipment/setup,high,inform coordinators,synthetic
+The quality of the catered food was exceptional.,positive,catering,low,none,synthetic
+The organization of the whole event was masterful.,positive,overall,low,none,synthetic
