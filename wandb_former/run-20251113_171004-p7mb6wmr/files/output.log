@@ -1,0 +1,17 @@
+> /home/700050058/project_feedback_analyzer/training_multitask.py(269)run_experiment()
+-> model = MultiTaskModel(
+device(type='cpu')
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 493, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 269, in run_experiment
+    model = MultiTaskModel(
+            ^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/bdb.py", line 100, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/bdb.py", line 125, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

@@ -1,0 +1,11 @@
+{"time":"2025-11-13T17:11:21.692287804+04:00","level":"INFO","msg":"stream: starting","core version":"0.22.1"}
+{"time":"2025-11-13T17:11:22.106842352+04:00","level":"INFO","msg":"stream: created new stream","id":"grdbmvaf"}
+{"time":"2025-11-13T17:11:22.106900628+04:00","level":"INFO","msg":"handler: started","stream_id":"grdbmvaf"}
+{"time":"2025-11-13T17:11:22.108565074+04:00","level":"INFO","msg":"stream: started","id":"grdbmvaf"}
+{"time":"2025-11-13T17:11:22.10857863+04:00","level":"INFO","msg":"writer: started","stream_id":"grdbmvaf"}
+{"time":"2025-11-13T17:11:22.1085796+04:00","level":"INFO","msg":"sender: started","stream_id":"grdbmvaf"}
+{"time":"2025-11-13T17:12:31.475632549+04:00","level":"INFO","msg":"stream: closing","id":"grdbmvaf"}
+{"time":"2025-11-13T17:12:33.134262085+04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-13T17:12:34.107398171+04:00","level":"INFO","msg":"handler: closed","stream_id":"grdbmvaf"}
+{"time":"2025-11-13T17:12:34.108758462+04:00","level":"INFO","msg":"sender: closed","stream_id":"grdbmvaf"}
+{"time":"2025-11-13T17:12:34.108773161+04:00","level":"INFO","msg":"stream: closed","id":"grdbmvaf"}

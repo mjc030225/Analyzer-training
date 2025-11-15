@@ -1,0 +1,31 @@
+{
+  "os":  "Linux-5.14.0-427.13.1.el9_4.x86_64-x86_64-with-glibc2.34",
+  "python":  "CPython 3.12.11",
+  "startedAt":  "2025-11-13T13:05:03.238560Z",
+  "program":  "/home/700050058/project_feedback_analyzer/training_multitask.py",
+  "codePath":  "training_multitask.py",
+  "codePathLocal":  "training_multitask.py",
+  "git":  {
+    "remote":  "https://github.com/mjc030225/Analyzer-training.git",
+    "commit":  "2ebd6e8a1643e0a5ee6c48732c31890a7c3e1488"
+  },
+  "email":  "mjc030225@gmail.com",
+  "root":  "/home/700050058/project_feedback_analyzer",
+  "host":  "login-1",
+  "executable":  "/home/700050058/.conda/envs/fastvideo/bin/python",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "disk":  {
+    "/":  {
+      "total":  "461378736128",
+      "used":  "165444837376"
+    }
+  },
+  "memory":  {
+    "total":  "134578921472"
+  },
+  "slurm":  {
+    "conf":  "/cm/shared/apps/slurm/var/etc/slurm/slurm.conf"
+  },
+  "writerId":  "l9j25i0sx13z7qpiii8zw3erppag5b2r"
+}

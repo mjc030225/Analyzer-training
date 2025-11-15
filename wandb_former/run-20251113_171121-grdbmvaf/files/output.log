@@ -1,0 +1,347 @@
+bert_base_lr2e-5_uf2 Epoch 1/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 13.90it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.336 | Acc=0.529 | P=0.446 | R=0.404
+urgency    | F1=0.506 | Acc=0.761 | P=0.517 | R=0.515
+topic      | F1=0.193 | Acc=0.342 | P=0.192 | R=0.245
+action     | F1=0.113 | Acc=0.516 | P=0.086 | R=0.167
+------------------------------------------------------------
+✅ Overall Avg | F1=0.287 | Acc=0.537 | P=0.310 | R=0.333
+
+✅ Epoch 1 | Loss=1.3891 | F1(avg)=0.287 | Sent=0.336 | Urg=0.506 | Top=0.193 | Act=0.113
+bert_base_lr2e-5_uf2 Epoch 2/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.77it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.818 | Acc=0.852 | P=0.856 | R=0.809
+urgency    | F1=0.580 | Acc=0.852 | P=0.560 | R=0.603
+topic      | F1=0.528 | Acc=0.626 | P=0.614 | R=0.541
+action     | F1=0.331 | Acc=0.716 | P=0.366 | R=0.361
+------------------------------------------------------------
+✅ Overall Avg | F1=0.564 | Acc=0.761 | P=0.599 | R=0.578
+
+✅ Epoch 2 | Loss=1.0898 | F1(avg)=0.564 | Sent=0.818 | Urg=0.580 | Top=0.528 | Act=0.331
+bert_base_lr2e-5_uf2 Epoch 3/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.78it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.854 | Acc=0.890 | P=0.897 | R=0.847
+urgency    | F1=0.600 | Acc=0.877 | P=0.579 | R=0.629
+topic      | F1=0.676 | Acc=0.761 | P=0.679 | R=0.687
+action     | F1=0.374 | Acc=0.761 | P=0.371 | R=0.410
+------------------------------------------------------------
+✅ Overall Avg | F1=0.626 | Acc=0.823 | P=0.631 | R=0.643
+
+✅ Epoch 3 | Loss=0.8094 | F1(avg)=0.626 | Sent=0.854 | Urg=0.600 | Top=0.676 | Act=0.374
+bert_base_lr2e-5_uf2 Epoch 4/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.81it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.892 | Acc=0.916 | P=0.918 | R=0.886
+urgency    | F1=0.664 | Acc=0.890 | P=0.757 | R=0.666
+topic      | F1=0.795 | Acc=0.806 | P=0.824 | R=0.780
+action     | F1=0.427 | Acc=0.787 | P=0.490 | R=0.444
+------------------------------------------------------------
+✅ Overall Avg | F1=0.695 | Acc=0.850 | P=0.747 | R=0.694
+
+✅ Epoch 4 | Loss=0.6230 | F1(avg)=0.695 | Sent=0.892 | Urg=0.664 | Top=0.795 | Act=0.427
+bert_base_lr2e-5_uf2 Epoch 5/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.78it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.919 | Acc=0.935 | P=0.942 | R=0.912
+urgency    | F1=0.644 | Acc=0.871 | P=0.648 | R=0.650
+topic      | F1=0.798 | Acc=0.806 | P=0.836 | R=0.779
+action     | F1=0.430 | Acc=0.794 | P=0.440 | R=0.451
+------------------------------------------------------------
+✅ Overall Avg | F1=0.698 | Acc=0.852 | P=0.716 | R=0.698
+
+✅ Epoch 5 | Loss=0.5000 | F1(avg)=0.698 | Sent=0.919 | Urg=0.644 | Top=0.798 | Act=0.430
+bert_base_lr2e-5_uf2 Epoch 6/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.82it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.916 | Acc=0.935 | P=0.943 | R=0.907
+urgency    | F1=0.657 | Acc=0.884 | P=0.678 | R=0.664
+topic      | F1=0.829 | Acc=0.832 | P=0.866 | R=0.812
+action     | F1=0.488 | Acc=0.800 | P=0.602 | R=0.485
+------------------------------------------------------------
+✅ Overall Avg | F1=0.722 | Acc=0.863 | P=0.772 | R=0.717
+
+✅ Epoch 6 | Loss=0.4151 | F1(avg)=0.722 | Sent=0.916 | Urg=0.657 | Top=0.829 | Act=0.488
+bert_base_lr2e-5_uf2 Epoch 7/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.92it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.910 | Acc=0.929 | P=0.937 | R=0.903
+urgency    | F1=0.657 | Acc=0.884 | P=0.678 | R=0.664
+topic      | F1=0.834 | Acc=0.839 | P=0.874 | R=0.815
+action     | F1=0.550 | Acc=0.832 | P=0.596 | R=0.541
+------------------------------------------------------------
+✅ Overall Avg | F1=0.738 | Acc=0.871 | P=0.771 | R=0.731
+
+✅ Epoch 7 | Loss=0.3737 | F1(avg)=0.738 | Sent=0.910 | Urg=0.657 | Top=0.834 | Act=0.550
+bert_base_lr2e-5_uf2 Epoch 8/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.86it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.725 | Acc=0.897 | P=0.725 | R=0.726
+topic      | F1=0.844 | Acc=0.845 | P=0.876 | R=0.830
+action     | F1=0.543 | Acc=0.832 | P=0.567 | R=0.537
+------------------------------------------------------------
+✅ Overall Avg | F1=0.762 | Acc=0.881 | P=0.780 | R=0.756
+
+✅ Epoch 8 | Loss=0.3272 | F1(avg)=0.762 | Sent=0.936 | Urg=0.725 | Top=0.844 | Act=0.543
+bert_base_lr2e-5_uf2 Epoch 9/50: 100%|██████████████████████████████████████████| 39/39 [00:02<00:00, 15.82it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.892 | Acc=0.916 | P=0.928 | R=0.884
+urgency    | F1=0.733 | Acc=0.903 | P=0.740 | R=0.732
+topic      | F1=0.845 | Acc=0.852 | P=0.881 | R=0.830
+action     | F1=0.553 | Acc=0.839 | P=0.576 | R=0.547
+------------------------------------------------------------
+✅ Overall Avg | F1=0.756 | Acc=0.877 | P=0.781 | R=0.748
+
+✅ Epoch 9 | Loss=0.2954 | F1(avg)=0.756 | Sent=0.892 | Urg=0.733 | Top=0.845 | Act=0.553
+bert_base_lr2e-5_uf2 Epoch 10/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.83it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.919 | Acc=0.935 | P=0.942 | R=0.912
+urgency    | F1=0.746 | Acc=0.897 | P=0.739 | R=0.754
+topic      | F1=0.844 | Acc=0.845 | P=0.866 | R=0.830
+action     | F1=0.564 | Acc=0.845 | P=0.589 | R=0.558
+------------------------------------------------------------
+✅ Overall Avg | F1=0.768 | Acc=0.881 | P=0.784 | R=0.763
+
+✅ Epoch 10 | Loss=0.2711 | F1(avg)=0.768 | Sent=0.919 | Urg=0.746 | Top=0.844 | Act=0.564
+bert_base_lr2e-5_uf2 Epoch 11/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.81it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.928 | Acc=0.942 | P=0.940 | R=0.923
+urgency    | F1=0.733 | Acc=0.903 | P=0.740 | R=0.732
+topic      | F1=0.839 | Acc=0.845 | P=0.871 | R=0.822
+action     | F1=0.580 | Acc=0.858 | P=0.619 | R=0.570
+------------------------------------------------------------
+✅ Overall Avg | F1=0.770 | Acc=0.887 | P=0.793 | R=0.762
+
+✅ Epoch 11 | Loss=0.2426 | F1(avg)=0.770 | Sent=0.928 | Urg=0.733 | Top=0.839 | Act=0.580
+bert_base_lr2e-5_uf2 Epoch 12/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.81it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.935 | Acc=0.948 | P=0.947 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.839 | Acc=0.845 | P=0.871 | R=0.822
+action     | F1=0.580 | Acc=0.852 | P=0.618 | R=0.573
+------------------------------------------------------------
+✅ Overall Avg | F1=0.777 | Acc=0.887 | P=0.797 | R=0.771
+
+✅ Epoch 12 | Loss=0.2272 | F1(avg)=0.777 | Sent=0.935 | Urg=0.755 | Top=0.839 | Act=0.580
+bert_base_lr2e-5_uf2 Epoch 13/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.83it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.935 | Acc=0.948 | P=0.947 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.875 | Acc=0.871 | P=0.890 | R=0.867
+action     | F1=0.761 | Acc=0.865 | P=0.877 | R=0.745
+------------------------------------------------------------
+✅ Overall Avg | F1=0.832 | Acc=0.897 | P=0.867 | R=0.826
+
+✅ Epoch 13 | Loss=0.2070 | F1(avg)=0.832 | Sent=0.935 | Urg=0.755 | Top=0.875 | Act=0.761
+bert_base_lr2e-5_uf2 Epoch 14/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.85it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.776 | Acc=0.916 | P=0.787 | R=0.772
+topic      | F1=0.866 | Acc=0.865 | P=0.883 | R=0.857
+action     | F1=0.797 | Acc=0.871 | P=0.868 | R=0.775
+------------------------------------------------------------
+✅ Overall Avg | F1=0.844 | Acc=0.900 | P=0.873 | R=0.833
+
+✅ Epoch 14 | Loss=0.1996 | F1(avg)=0.844 | Sent=0.936 | Urg=0.776 | Top=0.866 | Act=0.797
+bert_base_lr2e-5_uf2 Epoch 15/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.95it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.927 | Acc=0.942 | P=0.935 | R=0.923
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.881 | Acc=0.877 | P=0.898 | R=0.873
+action     | F1=0.578 | Acc=0.852 | P=0.612 | R=0.573
+------------------------------------------------------------
+✅ Overall Avg | F1=0.785 | Acc=0.894 | P=0.799 | R=0.782
+
+✅ Epoch 15 | Loss=0.1787 | F1(avg)=0.785 | Sent=0.927 | Urg=0.755 | Top=0.881 | Act=0.578
+bert_base_lr2e-5_uf2 Epoch 16/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.82it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.866 | Acc=0.865 | P=0.883 | R=0.857
+action     | F1=0.618 | Acc=0.865 | P=0.646 | R=0.608
+------------------------------------------------------------
+✅ Overall Avg | F1=0.794 | Acc=0.895 | P=0.808 | R=0.789
+
+✅ Epoch 16 | Loss=0.1709 | F1(avg)=0.794 | Sent=0.936 | Urg=0.755 | Top=0.866 | Act=0.618
+bert_base_lr2e-5_uf2 Epoch 17/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.83it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.888 | Acc=0.884 | P=0.902 | R=0.881
+action     | F1=0.617 | Acc=0.858 | P=0.648 | R=0.606
+------------------------------------------------------------
+✅ Overall Avg | F1=0.799 | Acc=0.898 | P=0.814 | R=0.794
+
+✅ Epoch 17 | Loss=0.1622 | F1(avg)=0.799 | Sent=0.936 | Urg=0.755 | Top=0.888 | Act=0.617
+bert_base_lr2e-5_uf2 Epoch 18/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.83it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.867 | Acc=0.865 | P=0.881 | R=0.861
+action     | F1=0.631 | Acc=0.871 | P=0.658 | R=0.623
+------------------------------------------------------------
+✅ Overall Avg | F1=0.797 | Acc=0.897 | P=0.811 | R=0.794
+
+✅ Epoch 18 | Loss=0.1506 | F1(avg)=0.797 | Sent=0.936 | Urg=0.755 | Top=0.867 | Act=0.631
+bert_base_lr2e-5_uf2 Epoch 19/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.83it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.755 | Acc=0.903 | P=0.752 | R=0.760
+topic      | F1=0.872 | Acc=0.871 | P=0.888 | R=0.865
+action     | F1=0.874 | Acc=0.897 | P=0.896 | R=0.862
+------------------------------------------------------------
+✅ Overall Avg | F1=0.859 | Acc=0.905 | P=0.872 | R=0.854
+
+✅ Epoch 19 | Loss=0.1437 | F1(avg)=0.859 | Sent=0.936 | Urg=0.755 | Top=0.872 | Act=0.874
+bert_base_lr2e-5_uf2 Epoch 20/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.82it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.943 | Acc=0.955 | P=0.952 | R=0.940
+urgency    | F1=0.763 | Acc=0.897 | P=0.751 | R=0.781
+topic      | F1=0.879 | Acc=0.877 | P=0.893 | R=0.873
+action     | F1=0.874 | Acc=0.897 | P=0.896 | R=0.862
+------------------------------------------------------------
+✅ Overall Avg | F1=0.865 | Acc=0.906 | P=0.873 | R=0.864
+
+✅ Epoch 20 | Loss=0.1391 | F1(avg)=0.865 | Sent=0.943 | Urg=0.763 | Top=0.879 | Act=0.874
+bert_base_lr2e-5_uf2 Epoch 21/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 14.35it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.935 | Acc=0.948 | P=0.941 | R=0.933
+urgency    | F1=0.758 | Acc=0.890 | P=0.746 | R=0.775
+topic      | F1=0.874 | Acc=0.871 | P=0.886 | R=0.869
+action     | F1=0.880 | Acc=0.903 | P=0.905 | R=0.868
+------------------------------------------------------------
+✅ Overall Avg | F1=0.862 | Acc=0.903 | P=0.869 | R=0.861
+
+✅ Epoch 21 | Loss=0.1276 | F1(avg)=0.862 | Sent=0.935 | Urg=0.758 | Top=0.874 | Act=0.880
+bert_base_lr2e-5_uf2 Epoch 22/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.87it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.935 | Acc=0.948 | P=0.947 | R=0.931
+urgency    | F1=0.783 | Acc=0.910 | P=0.775 | R=0.793
+topic      | F1=0.874 | Acc=0.871 | P=0.886 | R=0.869
+action     | F1=0.872 | Acc=0.897 | P=0.890 | R=0.862
+------------------------------------------------------------
+✅ Overall Avg | F1=0.866 | Acc=0.906 | P=0.874 | R=0.864
+
+✅ Epoch 22 | Loss=0.1233 | F1(avg)=0.866 | Sent=0.935 | Urg=0.783 | Top=0.874 | Act=0.872
+bert_base_lr2e-5_uf2 Epoch 23/50: 100%|█████████████████████████████████████████| 39/39 [00:02<00:00, 15.88it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.936 | Acc=0.948 | P=0.952 | R=0.931
+urgency    | F1=0.783 | Acc=0.910 | P=0.775 | R=0.793
+topic      | F1=0.866 | Acc=0.865 | P=0.883 | R=0.857
+action     | F1=0.868 | Acc=0.890 | P=0.886 | R=0.860
+------------------------------------------------------------
+✅ Overall Avg | F1=0.863 | Acc=0.903 | P=0.874 | R=0.860
+
+✅ Epoch 23 | Loss=0.1204 | F1(avg)=0.863 | Sent=0.936 | Urg=0.783 | Top=0.866 | Act=0.868
+bert_base_lr2e-5_uf2 Epoch 24/50:  64%|██████████████████████████▎              | 25/39 [00:01<00:00, 15.62it/s]
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 492, in <module>
+    all_results = []
+                 ^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 280, in run_experiment
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 205, in train_model
+    a = batch["action"].to(DEVICE)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 102, in forward
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1000, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 650, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 588, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/pytorch_utils.py", line 257, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 597, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 527, in forward
+    hidden_states = self.LayerNorm(hidden_states + input_tensor)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+
+KeyboardInterrupt

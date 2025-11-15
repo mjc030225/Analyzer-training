@@ -1,0 +1,372 @@
+tokenizer_config.json: 100%|██████████████████████████████████████████████████| 48.0/48.0 [00:00<00:00, 216kB/s]
+vocab.txt: 100%|█████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 6.73MB/s]
+tokenizer.json: 100%|████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 1.15MB/s]
+config.json: 100%|█████████████████████████████████████████████████████████████| 483/483 [00:00<00:00, 2.59MB/s]
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'DistilBertTokenizer'.
+The class this function is called from is 'BertTokenizer'.
+Use device:cuda
+You are using a model of type distilbert to instantiate a model of type bert. This is not supported for all configurations of models and can yield errors.
+model.safetensors: 100%|█████████████████████████████████████████████████████| 268M/268M [00:03<00:00, 68.4MB/s]
+Some weights of BertModel were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['embeddings.LayerNorm.bias', 'embeddings.LayerNorm.weight', 'embeddings.position_embeddings.weight', 'embeddings.token_type_embeddings.weight', 'embeddings.word_embeddings.weight', 'encoder.layer.0.attention.output.LayerNorm.bias', 'encoder.layer.0.attention.output.LayerNorm.weight', 'encoder.layer.0.attention.output.dense.bias', 'encoder.layer.0.attention.output.dense.weight', 'encoder.layer.0.attention.self.key.bias', 'encoder.layer.0.attention.self.key.weight', 'encoder.layer.0.attention.self.query.bias', 'encoder.layer.0.attention.self.query.weight', 'encoder.layer.0.attention.self.value.bias', 'encoder.layer.0.attention.self.value.weight', 'encoder.layer.0.intermediate.dense.bias', 'encoder.layer.0.intermediate.dense.weight', 'encoder.layer.0.output.LayerNorm.bias', 'encoder.layer.0.output.LayerNorm.weight', 'encoder.layer.0.output.dense.bias', 'encoder.layer.0.output.dense.weight', 'encoder.layer.1.attention.output.LayerNorm.bias', 'encoder.layer.1.attention.output.LayerNorm.weight', 'encoder.layer.1.attention.output.dense.bias', 'encoder.layer.1.attention.output.dense.weight', 'encoder.layer.1.attention.self.key.bias', 'encoder.layer.1.attention.self.key.weight', 'encoder.layer.1.attention.self.query.bias', 'encoder.layer.1.attention.self.query.weight', 'encoder.layer.1.attention.self.value.bias', 'encoder.layer.1.attention.self.value.weight', 'encoder.layer.1.intermediate.dense.bias', 'encoder.layer.1.intermediate.dense.weight', 'encoder.layer.1.output.LayerNorm.bias', 'encoder.layer.1.output.LayerNorm.weight', 'encoder.layer.1.output.dense.bias', 'encoder.layer.1.output.dense.weight', 'encoder.layer.10.attention.output.LayerNorm.bias', 'encoder.layer.10.attention.output.LayerNorm.weight', 'encoder.layer.10.attention.output.dense.bias', 'encoder.layer.10.attention.output.dense.weight', 'encoder.layer.10.attention.self.key.bias', 'encoder.layer.10.attention.self.key.weight', 'encoder.layer.10.attention.self.query.bias', 'encoder.layer.10.attention.self.query.weight', 'encoder.layer.10.attention.self.value.bias', 'encoder.layer.10.attention.self.value.weight', 'encoder.layer.10.intermediate.dense.bias', 'encoder.layer.10.intermediate.dense.weight', 'encoder.layer.10.output.LayerNorm.bias', 'encoder.layer.10.output.LayerNorm.weight', 'encoder.layer.10.output.dense.bias', 'encoder.layer.10.output.dense.weight', 'encoder.layer.11.attention.output.LayerNorm.bias', 'encoder.layer.11.attention.output.LayerNorm.weight', 'encoder.layer.11.attention.output.dense.bias', 'encoder.layer.11.attention.output.dense.weight', 'encoder.layer.11.attention.self.key.bias', 'encoder.layer.11.attention.self.key.weight', 'encoder.layer.11.attention.self.query.bias', 'encoder.layer.11.attention.self.query.weight', 'encoder.layer.11.attention.self.value.bias', 'encoder.layer.11.attention.self.value.weight', 'encoder.layer.11.intermediate.dense.bias', 'encoder.layer.11.intermediate.dense.weight', 'encoder.layer.11.output.LayerNorm.bias', 'encoder.layer.11.output.LayerNorm.weight', 'encoder.layer.11.output.dense.bias', 'encoder.layer.11.output.dense.weight', 'encoder.layer.2.attention.output.LayerNorm.bias', 'encoder.layer.2.attention.output.LayerNorm.weight', 'encoder.layer.2.attention.output.dense.bias', 'encoder.layer.2.attention.output.dense.weight', 'encoder.layer.2.attention.self.key.bias', 'encoder.layer.2.attention.self.key.weight', 'encoder.layer.2.attention.self.query.bias', 'encoder.layer.2.attention.self.query.weight', 'encoder.layer.2.attention.self.value.bias', 'encoder.layer.2.attention.self.value.weight', 'encoder.layer.2.intermediate.dense.bias', 'encoder.layer.2.intermediate.dense.weight', 'encoder.layer.2.output.LayerNorm.bias', 'encoder.layer.2.output.LayerNorm.weight', 'encoder.layer.2.output.dense.bias', 'encoder.layer.2.output.dense.weight', 'encoder.layer.3.attention.output.LayerNorm.bias', 'encoder.layer.3.attention.output.LayerNorm.weight', 'encoder.layer.3.attention.output.dense.bias', 'enc
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+distilbase_lr2e-5_uf2 Epoch 1/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.08it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.207 | Acc=0.452 | P=0.153 | R=0.324
+urgency    | F1=0.341 | Acc=0.613 | P=0.425 | R=0.378
+topic      | F1=0.063 | Acc=0.129 | P=0.084 | R=0.142
+action     | F1=0.113 | Acc=0.516 | P=0.086 | R=0.167
+------------------------------------------------------------
+✅ Overall Avg | F1=0.181 | Acc=0.427 | P=0.187 | R=0.253
+
+✅ Epoch 1 | Loss=1.4599 | F1(avg)=0.181 | Sent=0.207 | Urg=0.341 | Top=0.063 | Act=0.113
+distilbase_lr2e-5_uf2 Epoch 2/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.65it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.211 | Acc=0.465 | P=0.155 | R=0.333
+urgency    | F1=0.356 | Acc=0.619 | P=0.427 | R=0.386
+topic      | F1=0.057 | Acc=0.252 | P=0.036 | R=0.143
+action     | F1=0.113 | Acc=0.516 | P=0.086 | R=0.167
+------------------------------------------------------------
+✅ Overall Avg | F1=0.185 | Acc=0.463 | P=0.176 | R=0.257
+
+✅ Epoch 2 | Loss=1.3792 | F1(avg)=0.185 | Sent=0.211 | Urg=0.356 | Top=0.057 | Act=0.113
+distilbase_lr2e-5_uf2 Epoch 3/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.248 | Acc=0.477 | P=0.490 | R=0.352
+urgency    | F1=0.426 | Acc=0.671 | P=0.463 | R=0.438
+topic      | F1=0.091 | Acc=0.271 | P=0.180 | R=0.161
+action     | F1=0.113 | Acc=0.516 | P=0.086 | R=0.167
+------------------------------------------------------------
+✅ Overall Avg | F1=0.220 | Acc=0.484 | P=0.305 | R=0.280
+
+✅ Epoch 3 | Loss=1.3406 | F1(avg)=0.220 | Sent=0.248 | Urg=0.426 | Top=0.091 | Act=0.113
+distilbase_lr2e-5_uf2 Epoch 4/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.65it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.464 | Acc=0.594 | P=0.446 | R=0.528
+urgency    | F1=0.455 | Acc=0.697 | P=0.458 | R=0.466
+topic      | F1=0.094 | Acc=0.265 | P=0.082 | R=0.163
+action     | F1=0.126 | Acc=0.523 | P=0.170 | R=0.173
+------------------------------------------------------------
+✅ Overall Avg | F1=0.285 | Acc=0.519 | P=0.289 | R=0.332
+
+✅ Epoch 4 | Loss=1.3157 | F1(avg)=0.285 | Sent=0.464 | Urg=0.455 | Top=0.094 | Act=0.126
+distilbase_lr2e-5_uf2 Epoch 5/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.65it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.624 | Acc=0.671 | P=0.678 | R=0.622
+urgency    | F1=0.419 | Acc=0.671 | P=0.473 | R=0.434
+topic      | F1=0.159 | Acc=0.297 | P=0.423 | R=0.196
+action     | F1=0.126 | Acc=0.523 | P=0.170 | R=0.173
+------------------------------------------------------------
+✅ Overall Avg | F1=0.332 | Acc=0.540 | P=0.436 | R=0.356
+
+✅ Epoch 5 | Loss=1.2967 | F1(avg)=0.332 | Sent=0.624 | Urg=0.419 | Top=0.159 | Act=0.126
+distilbase_lr2e-5_uf2 Epoch 6/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.65it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.544 | Acc=0.645 | P=0.767 | R=0.602
+urgency    | F1=0.455 | Acc=0.697 | P=0.458 | R=0.466
+topic      | F1=0.215 | Acc=0.381 | P=0.233 | R=0.281
+action     | F1=0.189 | Acc=0.574 | P=0.170 | R=0.224
+------------------------------------------------------------
+✅ Overall Avg | F1=0.351 | Acc=0.574 | P=0.407 | R=0.393
+
+✅ Epoch 6 | Loss=1.2428 | F1(avg)=0.351 | Sent=0.544 | Urg=0.455 | Top=0.215 | Act=0.189
+distilbase_lr2e-5_uf2 Epoch 7/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.66it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.524 | Acc=0.645 | P=0.763 | R=0.607
+urgency    | F1=0.458 | Acc=0.703 | P=0.475 | R=0.468
+topic      | F1=0.320 | Acc=0.419 | P=0.508 | R=0.332
+action     | F1=0.198 | Acc=0.574 | P=0.169 | R=0.240
+------------------------------------------------------------
+✅ Overall Avg | F1=0.375 | Acc=0.585 | P=0.479 | R=0.412
+
+✅ Epoch 7 | Loss=1.2201 | F1(avg)=0.375 | Sent=0.524 | Urg=0.458 | Top=0.320 | Act=0.198
+distilbase_lr2e-5_uf2 Epoch 8/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.68it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.700 | Acc=0.742 | P=0.761 | R=0.718
+urgency    | F1=0.465 | Acc=0.710 | P=0.462 | R=0.478
+topic      | F1=0.208 | Acc=0.361 | P=0.417 | R=0.272
+action     | F1=0.212 | Acc=0.594 | P=0.180 | R=0.257
+------------------------------------------------------------
+✅ Overall Avg | F1=0.396 | Acc=0.602 | P=0.455 | R=0.431
+
+✅ Epoch 8 | Loss=1.1630 | F1(avg)=0.396 | Sent=0.700 | Urg=0.465 | Top=0.208 | Act=0.212
+distilbase_lr2e-5_uf2 Epoch 9/50: 100%|█████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.729 | Acc=0.755 | P=0.751 | R=0.744
+urgency    | F1=0.467 | Acc=0.710 | P=0.461 | R=0.480
+topic      | F1=0.333 | Acc=0.426 | P=0.539 | R=0.341
+action     | F1=0.223 | Acc=0.613 | P=0.188 | R=0.275
+------------------------------------------------------------
+✅ Overall Avg | F1=0.438 | Acc=0.626 | P=0.485 | R=0.460
+
+✅ Epoch 9 | Loss=1.1329 | F1(avg)=0.438 | Sent=0.729 | Urg=0.467 | Top=0.333 | Act=0.223
+distilbase_lr2e-5_uf2 Epoch 10/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.741 | Acc=0.761 | P=0.753 | R=0.742
+urgency    | F1=0.471 | Acc=0.716 | P=0.467 | R=0.484
+topic      | F1=0.281 | Acc=0.419 | P=0.533 | R=0.318
+action     | F1=0.223 | Acc=0.613 | P=0.188 | R=0.275
+------------------------------------------------------------
+✅ Overall Avg | F1=0.429 | Acc=0.627 | P=0.485 | R=0.455
+
+✅ Epoch 10 | Loss=1.0972 | F1(avg)=0.429 | Sent=0.741 | Urg=0.471 | Top=0.281 | Act=0.223
+distilbase_lr2e-5_uf2 Epoch 11/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.752 | Acc=0.768 | P=0.754 | R=0.763
+urgency    | F1=0.467 | Acc=0.710 | P=0.461 | R=0.480
+topic      | F1=0.365 | Acc=0.471 | P=0.484 | R=0.389
+action     | F1=0.215 | Acc=0.600 | P=0.181 | R=0.263
+------------------------------------------------------------
+✅ Overall Avg | F1=0.450 | Acc=0.637 | P=0.470 | R=0.474
+
+✅ Epoch 11 | Loss=1.0467 | F1(avg)=0.450 | Sent=0.752 | Urg=0.467 | Top=0.365 | Act=0.215
+distilbase_lr2e-5_uf2 Epoch 12/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.743 | Acc=0.761 | P=0.754 | R=0.754
+urgency    | F1=0.512 | Acc=0.761 | P=0.496 | R=0.530
+topic      | F1=0.387 | Acc=0.490 | P=0.565 | R=0.393
+action     | F1=0.229 | Acc=0.626 | P=0.192 | R=0.287
+------------------------------------------------------------
+✅ Overall Avg | F1=0.468 | Acc=0.660 | P=0.502 | R=0.491
+
+✅ Epoch 12 | Loss=0.9865 | F1(avg)=0.468 | Sent=0.743 | Urg=0.512 | Top=0.387 | Act=0.229
+distilbase_lr2e-5_uf2 Epoch 13/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.64it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.777 | Acc=0.787 | P=0.771 | R=0.789
+urgency    | F1=0.492 | Acc=0.742 | P=0.490 | R=0.504
+topic      | F1=0.370 | Acc=0.490 | P=0.552 | R=0.391
+action     | F1=0.234 | Acc=0.639 | P=0.196 | R=0.291
+------------------------------------------------------------
+✅ Overall Avg | F1=0.468 | Acc=0.665 | P=0.502 | R=0.494
+
+✅ Epoch 13 | Loss=0.9366 | F1(avg)=0.468 | Sent=0.777 | Urg=0.492 | Top=0.370 | Act=0.234
+distilbase_lr2e-5_uf2 Epoch 14/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.764 | Acc=0.774 | P=0.763 | R=0.777
+urgency    | F1=0.508 | Acc=0.761 | P=0.498 | R=0.521
+topic      | F1=0.456 | Acc=0.529 | P=0.703 | R=0.441
+action     | F1=0.237 | Acc=0.645 | P=0.199 | R=0.301
+------------------------------------------------------------
+✅ Overall Avg | F1=0.491 | Acc=0.677 | P=0.541 | R=0.510
+
+✅ Epoch 14 | Loss=0.8861 | F1(avg)=0.491 | Sent=0.764 | Urg=0.508 | Top=0.456 | Act=0.237
+distilbase_lr2e-5_uf2 Epoch 15/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.63it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.771 | Acc=0.781 | P=0.769 | R=0.784
+urgency    | F1=0.511 | Acc=0.761 | P=0.500 | R=0.524
+topic      | F1=0.506 | Acc=0.574 | P=0.667 | R=0.500
+action     | F1=0.319 | Acc=0.697 | P=0.517 | R=0.352
+------------------------------------------------------------
+✅ Overall Avg | F1=0.527 | Acc=0.703 | P=0.613 | R=0.540
+
+✅ Epoch 15 | Loss=0.8233 | F1(avg)=0.527 | Sent=0.771 | Urg=0.511 | Top=0.506 | Act=0.319
+distilbase_lr2e-5_uf2 Epoch 16/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.69it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.792 | Acc=0.800 | P=0.785 | R=0.803
+urgency    | F1=0.506 | Acc=0.761 | P=0.506 | R=0.517
+topic      | F1=0.480 | Acc=0.548 | P=0.664 | R=0.469
+action     | F1=0.309 | Acc=0.677 | P=0.509 | R=0.334
+------------------------------------------------------------
+✅ Overall Avg | F1=0.522 | Acc=0.697 | P=0.616 | R=0.531
+
+✅ Epoch 16 | Loss=0.7632 | F1(avg)=0.522 | Sent=0.792 | Urg=0.506 | Top=0.480 | Act=0.309
+distilbase_lr2e-5_uf2 Epoch 17/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.787 | Acc=0.794 | P=0.781 | R=0.796
+urgency    | F1=0.523 | Acc=0.774 | P=0.509 | R=0.538
+topic      | F1=0.479 | Acc=0.555 | P=0.700 | R=0.473
+action     | F1=0.312 | Acc=0.684 | P=0.385 | R=0.344
+------------------------------------------------------------
+✅ Overall Avg | F1=0.525 | Acc=0.702 | P=0.594 | R=0.538
+
+✅ Epoch 17 | Loss=0.7340 | F1(avg)=0.525 | Sent=0.787 | Urg=0.523 | Top=0.479 | Act=0.312
+distilbase_lr2e-5_uf2 Epoch 18/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.792 | Acc=0.800 | P=0.808 | R=0.787
+urgency    | F1=0.601 | Acc=0.806 | P=0.647 | R=0.601
+topic      | F1=0.517 | Acc=0.581 | P=0.682 | R=0.499
+action     | F1=0.346 | Acc=0.697 | P=0.476 | R=0.373
+------------------------------------------------------------
+✅ Overall Avg | F1=0.564 | Acc=0.721 | P=0.653 | R=0.565
+
+✅ Epoch 18 | Loss=0.7057 | F1(avg)=0.564 | Sent=0.792 | Urg=0.601 | Top=0.517 | Act=0.346
+distilbase_lr2e-5_uf2 Epoch 19/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.794 | Acc=0.800 | P=0.791 | R=0.799
+urgency    | F1=0.524 | Acc=0.774 | P=0.515 | R=0.536
+topic      | F1=0.567 | Acc=0.619 | P=0.677 | R=0.556
+action     | F1=0.308 | Acc=0.677 | P=0.373 | R=0.338
+------------------------------------------------------------
+✅ Overall Avg | F1=0.548 | Acc=0.718 | P=0.589 | R=0.557
+
+✅ Epoch 19 | Loss=0.6517 | F1(avg)=0.548 | Sent=0.794 | Urg=0.524 | Top=0.567 | Act=0.308
+distilbase_lr2e-5_uf2 Epoch 20/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.63it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.797 | Acc=0.800 | P=0.791 | R=0.808
+urgency    | F1=0.531 | Acc=0.781 | P=0.526 | R=0.539
+topic      | F1=0.541 | Acc=0.619 | P=0.705 | R=0.540
+action     | F1=0.310 | Acc=0.671 | P=0.347 | R=0.333
+------------------------------------------------------------
+✅ Overall Avg | F1=0.545 | Acc=0.718 | P=0.592 | R=0.555
+
+✅ Epoch 20 | Loss=0.6104 | F1(avg)=0.545 | Sent=0.797 | Urg=0.531 | Top=0.541 | Act=0.310
+distilbase_lr2e-5_uf2 Epoch 21/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.816 | Acc=0.819 | P=0.818 | R=0.815
+urgency    | F1=0.616 | Acc=0.781 | P=0.652 | R=0.603
+topic      | F1=0.620 | Acc=0.658 | P=0.692 | R=0.610
+action     | F1=0.333 | Acc=0.684 | P=0.386 | R=0.357
+------------------------------------------------------------
+✅ Overall Avg | F1=0.596 | Acc=0.735 | P=0.637 | R=0.596
+
+✅ Epoch 21 | Loss=0.5860 | F1(avg)=0.596 | Sent=0.816 | Urg=0.616 | Top=0.620 | Act=0.333
+distilbase_lr2e-5_uf2 Epoch 22/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.819 | Acc=0.826 | P=0.822 | R=0.822
+urgency    | F1=0.531 | Acc=0.781 | P=0.519 | R=0.544
+topic      | F1=0.575 | Acc=0.632 | P=0.718 | R=0.561
+action     | F1=0.333 | Acc=0.684 | P=0.386 | R=0.357
+------------------------------------------------------------
+✅ Overall Avg | F1=0.565 | Acc=0.731 | P=0.611 | R=0.571
+
+✅ Epoch 22 | Loss=0.5545 | F1(avg)=0.565 | Sent=0.819 | Urg=0.531 | Top=0.575 | Act=0.333
+distilbase_lr2e-5_uf2 Epoch 23/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.803 | Acc=0.806 | P=0.802 | R=0.806
+urgency    | F1=0.532 | Acc=0.781 | P=0.524 | R=0.541
+topic      | F1=0.633 | Acc=0.671 | P=0.714 | R=0.620
+action     | F1=0.343 | Acc=0.697 | P=0.391 | R=0.362
+------------------------------------------------------------
+✅ Overall Avg | F1=0.578 | Acc=0.739 | P=0.608 | R=0.582
+
+✅ Epoch 23 | Loss=0.5341 | F1(avg)=0.578 | Sent=0.803 | Urg=0.532 | Top=0.633 | Act=0.343
+distilbase_lr2e-5_uf2 Epoch 24/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.67it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.786 | Acc=0.794 | P=0.803 | R=0.778
+urgency    | F1=0.540 | Acc=0.787 | P=0.527 | R=0.563
+topic      | F1=0.656 | Acc=0.684 | P=0.725 | R=0.639
+action     | F1=0.358 | Acc=0.684 | P=0.389 | R=0.375
+------------------------------------------------------------
+✅ Overall Avg | F1=0.585 | Acc=0.737 | P=0.611 | R=0.589
+
+✅ Epoch 24 | Loss=0.4940 | F1(avg)=0.585 | Sent=0.786 | Urg=0.540 | Top=0.656 | Act=0.358
+distilbase_lr2e-5_uf2 Epoch 25/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.62it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.822 | Acc=0.826 | P=0.831 | R=0.820
+urgency    | F1=0.603 | Acc=0.774 | P=0.608 | R=0.599
+topic      | F1=0.639 | Acc=0.677 | P=0.719 | R=0.626
+action     | F1=0.507 | Acc=0.684 | P=0.574 | R=0.523
+------------------------------------------------------------
+✅ Overall Avg | F1=0.643 | Acc=0.740 | P=0.683 | R=0.642
+
+✅ Epoch 25 | Loss=0.5013 | F1(avg)=0.643 | Sent=0.822 | Urg=0.603 | Top=0.639 | Act=0.507
+distilbase_lr2e-5_uf2 Epoch 26/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.60it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.812 | Acc=0.813 | P=0.814 | R=0.811
+urgency    | F1=0.572 | Acc=0.774 | P=0.588 | R=0.567
+topic      | F1=0.649 | Acc=0.697 | P=0.762 | R=0.636
+action     | F1=0.539 | Acc=0.697 | P=0.602 | R=0.540
+------------------------------------------------------------
+✅ Overall Avg | F1=0.643 | Acc=0.745 | P=0.691 | R=0.638
+
+✅ Epoch 26 | Loss=0.4542 | F1(avg)=0.643 | Sent=0.812 | Urg=0.572 | Top=0.649 | Act=0.539
+distilbase_lr2e-5_uf2 Epoch 27/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.60it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.800 | Acc=0.800 | P=0.796 | R=0.806
+urgency    | F1=0.520 | Acc=0.768 | P=0.510 | R=0.532
+topic      | F1=0.655 | Acc=0.684 | P=0.743 | R=0.634
+action     | F1=0.505 | Acc=0.677 | P=0.572 | R=0.517
+------------------------------------------------------------
+✅ Overall Avg | F1=0.620 | Acc=0.732 | P=0.655 | R=0.622
+
+✅ Epoch 27 | Loss=0.4565 | F1(avg)=0.620 | Sent=0.800 | Urg=0.520 | Top=0.655 | Act=0.505
+distilbase_lr2e-5_uf2 Epoch 28/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.60it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.830 | Acc=0.832 | P=0.833 | R=0.829
+urgency    | F1=0.579 | Acc=0.755 | P=0.582 | R=0.579
+topic      | F1=0.654 | Acc=0.697 | P=0.743 | R=0.642
+action     | F1=0.544 | Acc=0.703 | P=0.609 | R=0.550
+------------------------------------------------------------
+✅ Overall Avg | F1=0.652 | Acc=0.747 | P=0.692 | R=0.650
+
+✅ Epoch 28 | Loss=0.4317 | F1(avg)=0.652 | Sent=0.830 | Urg=0.579 | Top=0.654 | Act=0.544
+distilbase_lr2e-5_uf2 Epoch 29/50: 100%|████████████████████████████████████████| 20/20 [00:02<00:00,  8.61it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.805 | Acc=0.806 | P=0.801 | R=0.808
+urgency    | F1=0.526 | Acc=0.768 | P=0.516 | R=0.536
+topic      | F1=0.696 | Acc=0.716 | P=0.759 | R=0.677
+action     | F1=0.542 | Acc=0.697 | P=0.603 | R=0.541
+------------------------------------------------------------
+✅ Overall Avg | F1=0.642 | Acc=0.747 | P=0.670 | R=0.641
+
+✅ Epoch 29 | Loss=0.4009 | F1(avg)=0.642 | Sent=0.805 | Urg=0.526 | Top=0.696 | Act=0.542
+distilbase_lr2e-5_uf2 Epoch 30/50:  35%|██████████████▎                          | 7/20 [00:00<00:01,  7.30it/s]
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 494, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 282, in run_experiment
+    train_loss, val_f1 = train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, cfg)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 218, in train_model
+    total_loss += loss.item()
+                  ^^^^^^^^^^^
+KeyboardInterrupt

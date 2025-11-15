@@ -1,25 +1,40 @@
 import os
-import json
 import wandb
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from transformers import (
-    BertTokenizer, BertModel, RobertaTokenizer, RobertaModel,
+    BertTokenizer, BertModel, RobertaTokenizer, RobertaModel, DistilBertModel,DistilBertTokenizer,
     get_linear_schedule_with_warmup
 )
 from sklearn.metrics import (
-    f1_score, accuracy_score, precision_score, recall_score, classification_report
+    f1_score, accuracy_score, precision_score, recall_score
 )
 import torch
 from torch.utils.data import DataLoader
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score, accuracy_score
+
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+import random
+import numpy as np
+
+
+def set_seed(seed=42):
+    """固定所有随机种子，保证可复现"""
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+    # 确保 DataLoader 的 worker 初始化一致
+    os.environ["PYTHONHASHSEED"] = str(seed)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# add to avoid some warning
+os.environ["TF_ENABLE_ONEDNN_OPTS"]="0"
 class FeedbackDataset(torch.utils.data.Dataset):
     def __init__(self, csv_file, tokenizer, rule_func, max_len=128):
         self.data = pd.read_csv(csv_file)
@@ -77,10 +92,17 @@ class MultiTaskModel(nn.Module):
         hidden_size = self.encoder.config.hidden_size
         self.use_rule = use_rule
         self.rule_dim = rule_dim if use_rule else 0
+        # 兼容 BERT / RoBERTa / DistilBERT 等不同结构
+        if hasattr(self.encoder, "encoder"):  # BERT, RoBERTa
+            layer_module = self.encoder.encoder.layer
+        elif hasattr(self.encoder, "transformer"):  # DistilBERT
+            layer_module = self.encoder.transformer.layer
+        else:
+            raise ValueError(f"Unknown model structure: {type(self.encoder)}")
 
-        total_layers = len(self.encoder.encoder.layer)
+        total_layers = len(layer_module)
         freeze_until = max(0, total_layers - unfreeze_layers)
-        for i, layer in enumerate(self.encoder.encoder.layer):
+        for i, layer in enumerate(layer_module):
             if i < freeze_until:
                 for p in layer.parameters():
                     p.requires_grad = False
@@ -246,17 +268,23 @@ def train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, 
 # =========================
 def run_experiment(cfg):
     wandb.init(project="FeedbackAnalyzer", name=cfg["exp_name"], config=cfg)
-
-    tokenizer_cls = RobertaTokenizer if "roberta" in cfg["model_name"] else BertTokenizer
-    model_cls = RobertaModel if "roberta" in cfg["model_name"] else BertModel
+    if "roberta" in cfg["model_name"]:
+        tokenizer_cls = RobertaTokenizer
+        model_cls = RobertaModel  
+    elif "distil" in cfg["model_name"]:
+        tokenizer_cls = DistilBertTokenizer
+        model_cls = DistilBertModel
+    else:
+        tokenizer_cls = BertTokenizer
+        model_cls = BertModel
 
     tokenizer = tokenizer_cls.from_pretrained(cfg["model_name"])
     train_ds = FeedbackDataset("train.csv", tokenizer, rule_based_features)
     val_ds = FeedbackDataset("val.csv", tokenizer, rule_based_features)
 
-    train_loader = DataLoader(train_ds, batch_size=16, shuffle=True)
-    val_loader = DataLoader(val_ds, batch_size=16)
-
+    train_loader = DataLoader(train_ds, batch_size=32, shuffle=True)
+    val_loader = DataLoader(val_ds, batch_size=32)
+    print(f"Use device:{DEVICE}")
     # 传入 use_rule 参数 👇
     model = MultiTaskModel(
         cfg["model_name"], model_cls,
@@ -416,12 +444,12 @@ def plot_all_experiments(all_results):
     # ====== 2️⃣ 模型对比 ======
     model_results = [
         r for r in all_results
-        if any(k in r["name"].lower() for k in ["bert_base", "roberta", "small"])
+        if any(k in r["name"].lower() for k in ["bert_base", "roberta", "small","distill"])
     ]
     if model_results:
         plot_curves(
             model_results, metric="val",
-            title="Model Comparison (BERT, RoBERTa, Small)",
+            title="Model Comparison (BERT, RoBERTa, Small, Distill)",
             ylabel="Validation F1", filename="compare_models.png", palette=palette_model
         )
 
@@ -460,21 +488,23 @@ def plot_all_experiments(all_results):
 # =========================
 if __name__ == "__main__":
     # if __name__ == "__main__":
+    set_seed(42)
     experiments = [
         # 原多模型实验
         {"model_name": "bert-base-uncased", "exp_name": "bert_base_lr2e-5_uf2", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
         {"model_name": "prajjwal1/bert-small", "exp_name": "bert_small_lr3e-5_uf2", "lr": 3e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
         {"model_name": "roberta-base", "exp_name": "roberta_base_lr2e-5_uf2", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
-
+        {"model_name":"distilbert-base-uncased","exp_name": "distilbase_lr2e-5_uf2", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
+        
         # ✨ 消融实验：BERT-base 不同解冻层数
-        {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze0", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 0, "use_rule": True},
-        {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze2", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
-        {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze4", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": True},
+        # {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze0", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 0, "use_rule": True},
+        # {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze2", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 2, "use_rule": True},
+        # {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze4", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": True},
         # {"model_name": "bert-base-uncased", "exp_name": "bert_base_unfreeze6", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 6, "use_rule": True},
 
         # ✨ Rule-based 对比
-        {"model_name": "bert-base-uncased", "exp_name": "bert_base_rule_ON", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": True},
-        {"model_name": "bert-base-uncased", "exp_name": "bert_base_rule_OFF", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": False},
+        # {"model_name": "bert-base-uncased", "exp_name": "bert_base_rule_ON", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": True},
+        # {"model_name": "bert-base-uncased", "exp_name": "bert_base_rule_OFF", "lr": 2e-5, "epochs": 50, "unfreeze_layers": 4, "use_rule": False},
     ]
 
 

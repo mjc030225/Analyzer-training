@@ -1,0 +1,12 @@
+{"time":"2025-11-13T18:10:00.171959982+04:00","level":"INFO","msg":"stream: starting","core version":"0.22.1"}
+{"time":"2025-11-13T18:10:00.569811499+04:00","level":"INFO","msg":"stream: created new stream","id":"eebvomip"}
+{"time":"2025-11-13T18:10:00.569867583+04:00","level":"INFO","msg":"handler: started","stream_id":"eebvomip"}
+{"time":"2025-11-13T18:10:00.571642304+04:00","level":"INFO","msg":"stream: started","id":"eebvomip"}
+{"time":"2025-11-13T18:10:00.571651073+04:00","level":"INFO","msg":"writer: started","stream_id":"eebvomip"}
+{"time":"2025-11-13T18:10:00.571656031+04:00","level":"INFO","msg":"sender: started","stream_id":"eebvomip"}
+{"time":"2025-11-13T18:12:23.657198857+04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.001141815}],"total_operations":1}}
+{"time":"2025-11-13T18:12:25.508114362+04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-13T18:12:26.189137887+04:00","level":"INFO","msg":"stream: closing","id":"eebvomip"}
+{"time":"2025-11-13T18:12:26.189156444+04:00","level":"INFO","msg":"handler: closed","stream_id":"eebvomip"}
+{"time":"2025-11-13T18:12:26.192628622+04:00","level":"INFO","msg":"sender: closed","stream_id":"eebvomip"}
+{"time":"2025-11-13T18:12:26.19264748+04:00","level":"INFO","msg":"stream: closed","id":"eebvomip"}

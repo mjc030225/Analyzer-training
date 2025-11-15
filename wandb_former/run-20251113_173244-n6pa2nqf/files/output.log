@@ -1,0 +1,49 @@
+Use device:cuda
+bert_base_unfreeze0 Epoch 1/50: 100%|███████████████████████████████████████████| 20/20 [00:02<00:00,  9.25it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.327 | Acc=0.381 | P=0.349 | R=0.366
+urgency    | F1=0.271 | Acc=0.361 | P=0.325 | R=0.328
+topic      | F1=0.089 | Acc=0.155 | P=0.064 | R=0.147
+action     | F1=0.124 | Acc=0.277 | P=0.138 | R=0.161
+------------------------------------------------------------
+✅ Overall Avg | F1=0.203 | Acc=0.294 | P=0.219 | R=0.250
+
+✅ Epoch 1 | Loss=1.5153 | F1(avg)=0.203 | Sent=0.327 | Urg=0.271 | Top=0.089 | Act=0.124
+bert_base_unfreeze0 Epoch 2/50: 100%|███████████████████████████████████████████| 20/20 [00:02<00:00,  9.29it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.390 | Acc=0.465 | P=0.401 | R=0.416
+urgency    | F1=0.354 | Acc=0.458 | P=0.385 | R=0.384
+topic      | F1=0.090 | Acc=0.161 | P=0.065 | R=0.152
+action     | F1=0.124 | Acc=0.323 | P=0.122 | R=0.139
+------------------------------------------------------------
+✅ Overall Avg | F1=0.239 | Acc=0.352 | P=0.243 | R=0.273
+
+✅ Epoch 2 | Loss=1.4891 | F1(avg)=0.239 | Sent=0.390 | Urg=0.354 | Top=0.090 | Act=0.124
+bert_base_unfreeze0 Epoch 3/50: 100%|███████████████████████████████████████████| 20/20 [00:02<00:00,  9.31it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.373 | Acc=0.497 | P=0.417 | R=0.405
+urgency    | F1=0.343 | Acc=0.497 | P=0.342 | R=0.361
+topic      | F1=0.109 | Acc=0.174 | P=0.088 | R=0.171
+action     | F1=0.133 | Acc=0.426 | P=0.126 | R=0.155
+------------------------------------------------------------
+✅ Overall Avg | F1=0.239 | Acc=0.398 | P=0.243 | R=0.273
+
+✅ Epoch 3 | Loss=1.4740 | F1(avg)=0.239 | Sent=0.373 | Urg=0.343 | Top=0.109 | Act=0.133
+bert_base_unfreeze0 Epoch 4/50:  75%|████████████████████████████████▎          | 15/20 [00:01<00:00,  8.44it/s]
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 500, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 288, in run_experiment
+    train_loss, val_f1 = train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, cfg)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 218, in train_model
+    total_loss += loss.item()
+                  ^^^^^^^^^^^
+KeyboardInterrupt

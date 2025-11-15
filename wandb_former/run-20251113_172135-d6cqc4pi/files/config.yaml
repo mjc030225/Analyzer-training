@@ -1,0 +1,140 @@
+_wandb:
+    value:
+        cli_version: 0.22.1
+        e:
+            ch8x9bzz6rb6rogai3c8z602e6i90giw:
+                codePath: training_multitask.py
+                codePathLocal: training_multitask.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "461378736128"
+                        used: "117747871744"
+                email: mjc030225@gmail.com
+                executable: /home/700050058/.conda/envs/fastvideo/bin/python
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-d3354429-db04-c888-dc75-8c82289d8ced
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-8aae46e2-c842-f65d-7154-fcb76b6f1225
+                host: gn03
+                memory:
+                    total: "540435197952"
+                os: Linux-5.14.0-427.13.1.el9_4.x86_64-x86_64-with-glibc2.34
+                program: /home/700050058/project_feedback_analyzer/training_multitask.py
+                python: CPython 3.12.11
+                root: /home/700050058/project_feedback_analyzer
+                slurm:
+                    cluster_name: slurm
+                    conf: /cm/shared/apps/slurm/var/etc/slurm/slurm.conf
+                    cpu_bind: quiet,cores
+                    cpu_bind_list: ""
+                    cpu_bind_type: cores
+                    cpu_bind_verbose: quiet
+                    cpus_on_node: "2"
+                    gpus_on_node: "1"
+                    gtids: "0"
+                    job_cpus_per_node: "2"
+                    job_end_time: "1763072663"
+                    job_gid: "20001"
+                    job_group: GRP_AA_HPC_INTERNAL_USERS
+                    job_id: "40130"
+                    job_name: bash
+                    job_nodelist: gn03
+                    job_num_nodes: "1"
+                    job_partition: gpuq
+                    job_qos: normal
+                    job_start_time: "1763036663"
+                    job_uid: "1003153924"
+                    job_user: "700050058"
+                    jobid: "40130"
+                    launch_node_ipaddr: 10.10.9.200
+                    localid: "0"
+                    mpi_type: pmix
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: gn03
+                    nprocs: "1"
+                    ntasks: "1"
+                    pmix_mapping_serv: (vector,(0,1,1))
+                    pmixp_abort_agent_port: "34529"
+                    prio_process: "0"
+                    procid: "0"
+                    pty_port: "34997"
+                    pty_win_col: "71"
+                    pty_win_row: "65"
+                    srun_comm_host: 10.10.9.200
+                    srun_comm_port: "44579"
+                    step_gpus: "1"
+                    step_id: "0"
+                    step_launcher_port: "44579"
+                    step_nodelist: gn03
+                    step_num_nodes: "1"
+                    step_num_tasks: "1"
+                    step_tasks_per_node: "1"
+                    stepid: "0"
+                    submit_dir: /home/700050058
+                    submit_host: login-1
+                    task_pid: "4169516"
+                    tasks_per_node: "1"
+                    topology_addr: gn03
+                    topology_addr_pattern: node
+                    umask: "0022"
+                    working_cluster: slurm:mgmt-1:6817:9984:109
+                startedAt: "2025-11-13T13:21:35.999111Z"
+                writerId: ch8x9bzz6rb6rogai3c8z602e6i90giw
+        m: []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "3":
+                - 13
+                - 16
+            "4": 3.12.11
+            "5": 0.22.1
+            "6": 4.57.1
+            "12": 0.22.1
+            "13": linux-x86_64
+epochs:
+    value: 50
+exp_name:
+    value: distillbase_lr2e-5_uf2
+lr:
+    value: 2e-05
+model_name:
+    value: distillbert-base-uncased
+unfreeze_layers:
+    value: 2
+use_rule:
+    value: true

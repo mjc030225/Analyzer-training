@@ -1,0 +1,27 @@
+Use device:cuda
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+roberta_base_lr2e-5_uf2 Epoch 1/50: 100%|███████████████████████████████████████| 20/20 [00:02<00:00,  7.89it/s]
+
+📊 Validation Results (Per Task)
+------------------------------------------------------------
+sentiment  | F1=0.211 | Acc=0.465 | P=0.155 | R=0.333
+urgency    | F1=0.243 | Acc=0.574 | P=0.191 | R=0.333
+topic      | F1=0.041 | Acc=0.168 | P=0.024 | R=0.143
+action     | F1=0.113 | Acc=0.516 | P=0.086 | R=0.167
+------------------------------------------------------------
+✅ Overall Avg | F1=0.152 | Acc=0.431 | P=0.114 | R=0.244
+
+✅ Epoch 1 | Loss=1.5027 | F1(avg)=0.152 | Sent=0.211 | Urg=0.243 | Top=0.041 | Act=0.113
+roberta_base_lr2e-5_uf2 Epoch 2/50:  25%|██████████                              | 5/20 [00:00<00:02,  7.10it/s]
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 500, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 288, in run_experiment
+    train_loss, val_f1 = train_model(model, train_loader, val_loader, optimizer, scheduler, loss_fn, cfg)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 218, in train_model
+    total_loss += loss.item()
+                  ^^^^^^^^^^^
+KeyboardInterrupt

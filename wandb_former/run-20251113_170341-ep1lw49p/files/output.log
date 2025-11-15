@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 487, in <module>
+    result = run_experiment(cfg)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 263, in run_experiment
+    model = MultiTaskModel(
+            ^^^^^^^^^^^^^^^
+  File "/home/700050058/project_feedback_analyzer/training_multitask.py", line 81, in __init__
+    total_layers = len(getattr(self.encoder, "encoder", getattr(self.encoder, "transformer")).layer)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/700050058/.conda/envs/fastvideo/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1940, in __getattr__
+    raise AttributeError(
+AttributeError: 'BertModel' object has no attribute 'transformer'
